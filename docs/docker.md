@@ -8,7 +8,7 @@ CLI and runtime dependencies. It is not yet a full forecasting-service image.
 ```bash
 docker build -t fwbench .
 docker run --rm --network none fwbench --help
-docker run --rm --network none fwbench results --input results/primary-377.json
+docker run --rm --network none fwbench results --input results/leaderboard.json
 
 docker build --target test -t fwbench-test .
 docker run --rm --network none fwbench-test
@@ -16,7 +16,7 @@ docker run --rm --network none fwbench-test
 
 Building downloads dependencies. Test execution uses synthetic fixtures with no
 network, paid API calls, model weights or observation dataset. The test image
-passed all 69 tests on Linux amd64 on 2026-09-15. The default image runs as an
+passed all 76 tests on Linux amd64. The default image runs as an
 unprivileged user. `.dockerignore` excludes credentials and unrelated local files.
 The CI workflow builds and tests images without publishing them.
 

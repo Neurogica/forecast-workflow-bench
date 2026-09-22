@@ -53,3 +53,29 @@ def test_score_cli(tmp_path, monkeypatch, valid):
     score = json.loads(output.read_text())
     assert score["valid"] is valid
     assert (score["normalized_business_loss"] == 0) is valid
+
+
+def test_result_ranking_uses_score_not_raw_loss(tmp_path, capsys):
+    from forecast_workflow.cli import show_results
+
+    rows = [
+        dict(label="Low loss", scored=2, valid=2, loss=0.1, credits=100, score=0.8),
+        dict(label="Low score", scored=2, valid=2, loss=0.2, credits=0, score=0.3),
+    ]
+    path = tmp_path / "results.json"
+    path.write_text(
+        json.dumps(
+            dict(
+                version="test",
+                case_count=2,
+                ranking_metric="score",
+                complete=True,
+                models=rows,
+                fixed_references=[],
+            )
+        )
+    )
+    show_results(path)
+    output = capsys.readouterr().out
+    assert output.index("Low score") < output.index("Low loss")
+    assert "S=0.300000" in output

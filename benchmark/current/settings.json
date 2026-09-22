@@ -1,0 +1,33 @@
+{
+  "version": "objective-main-1251-v3",
+  "budget": 113726,
+  "loss_scales": {
+    "cycle_hire": 0.04340576638915502,
+    "electricity": 0.054206794827132906
+  },
+  "cohort_weights": {
+    "electricity-july": 0.16666666666666666,
+    "electricity-winter": 0.16666666666666666,
+    "electricity-august": 0.16666666666666666,
+    "cycle-hire-may": 0.5
+  },
+  "ranking": "Same explicit objective S=0.5*((loss-floor)/history_scale+credits/B); domain and series weights unchanged. Rank complete same-pool comparisons only.",
+  "decoding": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "context_per_case": 32768,
+    "max_output_tokens": 16384,
+    "max_calls": 12,
+    "seed": 1701
+  },
+  "pools": [
+    "full",
+    "no_tsfm"
+  ],
+  "scope": "All existing primary cases; not a new holdout. Objective and tool-access intervention only. Local inference and hosted service have distinct deployment settings. No publication or GitHub push.",
+  "case_count": 1251,
+  "max_calls": 12,
+  "objective": "S = 0.5 * ((loss - perfect_demand_floor) / history_scale + credits / budget); the prompt states the equivalent objective without the action-independent floor.",
+  "source_protocol_sha256": "fc7b0336d7ac3ffb4e4947896c89e356e816bed806566b3038002767ab906795"
+}

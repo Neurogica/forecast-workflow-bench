@@ -2,8 +2,7 @@
 
 Version: `objective-main-1251-v3`. This is the current manuscript evaluation:
 1,251 cases, two hosted and eight local configurations, and 22,518 conversations
-including paired local TSFM-removal runs. Earlier `primary-1251-v2` results used
-different instructions and a different ranking; do not combine their rankings.
+including paired local TSFM-removal runs.
 
 Agents minimize S = 0.5 * ((loss - F) / sigma + credits / B), where F is the
 minimum feasible loss with known target demand, sigma is the calibrated domain
@@ -14,8 +13,7 @@ Credits measure forecast-tool expenditure, excluding language-model inference.
 
 The dataset's `objective-main-1251-v3/` directory contains the exact full-tool
 instructions, histories, contracts, tariffs, separate reproduction targets,
-per-case results, and integrity manifest. Histories match the v2 release byte for
-byte. These public targets support reproduction, not hidden-test evaluation.
+per-case results, and integrity manifest. These public targets support reproduction, not hidden-test evaluation.
 Give each agent only its isolated episode; never expose sibling episodes or targets.
 The full-tool main ranking has ten configurations. The eight local configurations
 also have no-TSFM controls in the results summary. Forecast-tool removal changes

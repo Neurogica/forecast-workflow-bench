@@ -1,11 +1,7 @@
-# Transport extension
+# Cycle-hire data
 
-The May 2026 extension adds 160 cycle-hire service-capacity cases: 20 London
-stations, four target days (May 3, 11, 19, 27), and one- and seven-day leads.
-It is a separate evaluation cohort, not a replacement for `primary-377-v1`.
-All 160 candidates passed the declared quality criteria. The preceding electricity
-extensions contain 375 August and 339 February cases; the four cohorts total 1,251.
-Do not merge their losses into an unregistered leaderboard score.
+The cycle-hire cohort contains 160 cases from 20 London stations across four target
+days and two forecast leads. It contributes half of the domain-balanced score.
 
 ## Source and permitted distribution
 
@@ -24,7 +20,7 @@ No endorsement or rights to logos, branding or personal data are implied. The
 release contains hourly aggregates, not individual trip or bicycle identifiers.
 Keep `license: other` and `license_name: fwbench-component-terms` on the mixed-source
 dataset card. The archived license HTML, source page, file listing, acquisition
-timestamps and checksums accompany the separate dataset candidate.
+timestamps and checksums accompany the Hugging Face dataset.
 
 Citi Bike was rejected: its data-sharing agreement prohibits distribution as a
 stand-alone dataset. Availability for download alone is not permission to rehost.
@@ -76,36 +72,3 @@ The output path must not exist. This construction command performs no model or
 API calls. The public builder reproduced all 960 evaluated episode files and
 160 target records exactly (JSON value equality; byte equality for histories).
 Provenance manifests differ when the builder's own file hash changes.
-
-## Interpretation of the results
-
-Fixed Chronos-2, Bolt and free hour-of-day empirical plans had mean losses
-0.5553, 0.5632 and 0.5744. The perfect-demand optimum was 0.5192: the shared
-three-hour grid/ramp constraints imposed a substantial floor on spiky rental
-counts. Above this floor, Chronos-2 reduced empirical excess loss by 34.5%.
-The full-menu hindsight oracle reached 0.5415 at 29,040 credits, versus 108,766
-for fixed Chronos-2. It used free classical plans in 95 of 160 cases.
-
-Always report the raw loss and the perfect-demand floor with excess loss.
-Oracle selection uses future targets and pays only for the selected plan, not
-for searching the menu. It is a diagnostic reference, not a deployable policy.
-Smaller matched agent panels must be labeled with their own sample counts.
-
-## Matched language-model panels
-
-| Model | Paired cases | With TSFMs | Without TSFMs | Valid with/without |
-|---|---:|---:|---:|---:|
-| Qwen3 4B Q8 | 16 | 0.8272 | 0.8242 | 15/15 |
-| Gemma 4 E4B QAT Q4 | 16 | 0.7234 | 0.8929 | 15/14 |
-| GPT-6 Astra, high effort | 8 | 0.7060 | 0.7065 | 8/8 |
-
-These are matched **within-model** comparisons. Astra's eight-case panel differs
-from the local sixteen-case panel, so the rows are not a model ranking. All
-invalid outcomes are included in the losses. The fixed normalizer, decoding
-settings, source hashes and per-case tariff ledgers were retained. No-TSFM
-conditions retained the classical tools and seasonal empirical forecast service.
-Astra showed little tool-access benefit on this panel; the fixed-model improvement
-does not establish that an agent reliably captures that improvement.
-
-[Machine-readable aggregate results](../results/extension-references.json) include
-all four cohorts, oracle budgets and the conditional station-bootstrap interval.
