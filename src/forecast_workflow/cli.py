@@ -19,7 +19,7 @@ def show_results(path):
         raise ValueError("Unknown ranking metric")
     if not data["complete"] or any(r["scored"] != count for r in data["models"]):
         raise ValueError("A complete common-cohort result is required")
-    print(f"FWBench {version} — lower {metric} is better")
+    print(f"{version} — lower {metric} is better")
     for title, rows in [
         ("Agents", sorted(data["models"], key=lambda r: r[metric])),
         ("Fixed policies", data["fixed_references"]),
