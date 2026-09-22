@@ -12,10 +12,10 @@ def read(path):
 
 def show_results(path):
     data = read(path)
-    version = data.get("version", "primary-377-v1")
-    count = data.get("case_count", 377)
-    metric = data.get("ranking_metric", "loss")
-    if metric not in ("loss", "g_cost"):
+    version = data["version"]
+    count = data["case_count"]
+    metric = data["ranking_metric"]
+    if metric not in ("loss", "score"):
         raise ValueError("Unknown ranking metric")
     if not data["complete"] or any(r["scored"] != count for r in data["models"]):
         raise ValueError("A complete common-cohort result is required")
@@ -29,7 +29,7 @@ def show_results(path):
             print(
                 f"{row['label']:26} {row['valid']:4}/{count} "
                 f"{row['loss']:10.6f} {row['credits']:12,.1f}"
-                + (f"  G={row['g_cost']:.6f}" if metric == "g_cost" else "")
+                + (f"  S={row['score']:.6f}" if metric == "score" else "")
             )
 
 

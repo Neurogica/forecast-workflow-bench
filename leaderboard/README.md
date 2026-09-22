@@ -23,8 +23,7 @@ These are author-reported results, not independent certifications. This Space do
 not run models, make paid API calls or accept automatic submissions. Evaluation
 scope and participation details are available in the application and code repository.
 
-The objective-main-1251-v3 evaluation is complete. The primary-377-v1 dataset tag
-remains available for reproducing the earlier release.
+The objective-main-1251-v3 evaluation is complete.
 
 ## Local preview
 
@@ -35,8 +34,7 @@ python app.py
 
 The Space root requires `app.py`, `view.py`, `styles.css`, `results.json`,
 `release-status.json`, `requirements.txt`, this README, `LICENSE`, and the complete `assets/` directory.
-SSR is disabled to avoid the private-Space server-rendering failure observed during
-initial deployment. Hugging Face repository access controls remain unchanged.
+
 
 ## Assets
 

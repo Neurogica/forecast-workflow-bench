@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite the software version used and its benchmark manifest. The manuscript is a working draft."
+message: "If you use FWBench, please cite this software and the dataset revision."
 type: software
 title: "Forecast Workflow Bench (FWBench)"
-version: 0.3.0.dev4
+version: 0.3.0.dev6
 authors:
   - family-names: Nagashima
     given-names: Shunya

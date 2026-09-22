@@ -10,4 +10,4 @@ jobs:
       - run: docker build --target test -t fwbench-test .
       - run: docker run --rm --network none fwbench-test
       - run: docker build -t fwbench .
-      - run: docker run --rm --network none fwbench results --input results/primary-377.json
+      - run: docker run --rm --network none fwbench results --input results/leaderboard.json

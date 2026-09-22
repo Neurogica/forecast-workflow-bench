@@ -15,4 +15,4 @@ jobs:
       - run: uv run --no-sync python -m ruff check src tests leaderboard scripts
       - run: uv run --no-sync python scripts/audit_release.py
       - run: uv run --no-sync python -m pytest -q
-      - run: uv run --no-sync python -m forecast_workflow.cli results --input results/primary-377.json
+      - run: uv run --no-sync python -m forecast_workflow.cli results --input results/leaderboard.json
