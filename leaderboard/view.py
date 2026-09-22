@@ -118,7 +118,7 @@ def leaderboard(group="All models", order=None):
     <tbody>{"".join(body)}</tbody></table></div>
     <div class="table-footer">
     <span>{len(items)} of {len(DATA["models"])} models · ranks remain global</span>
-    <span>Author-reported results / {escape(TRACK)} / format-v1</span></div>"""
+    <span>Author-reported results / Language Model track</span></div>"""
 
 
 def references():

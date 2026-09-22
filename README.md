@@ -90,7 +90,7 @@ Thinking denotes the enabled mode; other local rows use thinking off. All rows
 cover the same 1,251 cases. Metrics use domain-balanced aggregation and credits
 are mean per-case expenditure, not totals. Reference policies are not agents.
 
-[Complete aggregates and ablation studies](results/objective-main-1251-v3.json) ·
+[Complete aggregates and ablation studies](results/evaluation.json) ·
 [Interactive leaderboard](https://huggingface.co/spaces/Neurogica/forecast-workflow-bench-leaderboard)
 
 </details>
@@ -163,15 +163,14 @@ must be validated against the recorded evaluation configuration.
 
 The dataset contains isolated observations, instructions, contracts, tariffs,
 source provenance, separate reproduction targets and per-case evaluation results.
-The frozen evaluation identifier is `objective-main-1251-v3`.
+Checksums identify the exact evaluation inputs.
 
 ```bash
 hf download Neurogica/forecast-workflow-bench --repo-type dataset \
-  --revision objective-main-1251-v3 \
-  --include 'objective-main-1251-v3/**' --local-dir ../fwbench-data
+  --local-dir ../fwbench-data
 
-python3 ../fwbench-data/objective-main-1251-v3/examples/verify.py \
-  ../fwbench-data/objective-main-1251-v3
+python3 ../fwbench-data/examples/verify.py \
+  ../fwbench-data
 ```
 
 | Location | Contents |

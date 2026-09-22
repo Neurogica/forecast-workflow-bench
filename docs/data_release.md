@@ -1,9 +1,9 @@
 # Dataset distribution and terms
 
 The Hugging Face dataset `Neurogica/forecast-workflow-bench` distributes the
-`objective-main-1251-v3/` payload: 1,251 episodes, separate reproduction targets,
+evaluation payload: 1,251 episodes, separate reproduction targets,
 source provenance, component licenses, evaluation results and file checksums.
-Use the immutable `objective-main-1251-v3` tag to reproduce the paper evaluation.
+Record the dataset commit hash to identify the exact evaluation snapshot.
 
 GitHub contains the harness, case metadata, figures and aggregates. It does not
 bundle observation histories, future targets, model weights or credentials.

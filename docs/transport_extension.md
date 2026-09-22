@@ -65,7 +65,7 @@ license evidence from the dataset provenance, run:
 ```bash
 python scripts/data/build_transport.py \
   --source data/sources/tfl-cycle-hire/2026-snapshot \
-  --output data/cohorts/transport/tfl-cycle-hire-may-v1
+  --output data/cohorts/transport/tfl-cycle-hire-may
 ```
 
 The output path must not exist. This construction command performs no model or

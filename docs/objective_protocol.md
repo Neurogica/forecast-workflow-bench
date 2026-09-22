@@ -1,6 +1,6 @@
 # Objective-aligned Language Model evaluation
 
-Version: `objective-main-1251-v3`. This is the current manuscript evaluation:
+The Language Model evaluation covers
 1,251 cases, two hosted and eight local configurations, and 22,518 conversations
 including paired local TSFM-removal runs.
 
@@ -11,7 +11,7 @@ penalties. Cohort weights are 1/6 for each of three electricity cohorts and 1/2
 for cycle hire; cases are averaged within series and lead before cohort weighting.
 Credits measure forecast-tool expenditure, excluding language-model inference.
 
-The dataset's `objective-main-1251-v3/` directory contains the exact full-tool
+The dataset contains the exact full-tool
 instructions, histories, contracts, tariffs, separate reproduction targets,
 per-case results, and integrity manifest. These public targets support reproduction, not hidden-test evaluation.
 Give each agent only its isolated episode; never expose sibling episodes or targets.

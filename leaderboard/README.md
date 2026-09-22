@@ -23,7 +23,7 @@ These are author-reported results, not independent certifications. This Space do
 not run models, make paid API calls or accept automatic submissions. Evaluation
 scope and participation details are available in the application and code repository.
 
-The objective-main-1251-v3 evaluation is complete.
+The Language Model evaluation is complete.
 
 ## Local preview
 

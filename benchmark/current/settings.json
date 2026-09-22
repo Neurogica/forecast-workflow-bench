@@ -1,5 +1,5 @@
 {
-  "version": "objective-main-1251-v3",
+  "version": "FWBench",
   "budget": 113726,
   "loss_scales": {
     "cycle_hire": 0.04340576638915502,

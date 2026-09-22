@@ -1,6 +1,6 @@
 {
-  "version": "objective-main-1251-v3",
-  "track": "objective-main-1251-v3",
+  "version": "FWBench",
+  "track": "FWBench",
   "cases": [
     {
       "case_id": "TFL-002696-2026-05-03-week_ahead",
