@@ -1,0 +1,19 @@
+# Allowlist: credentials, observations, targets, weights and run traces never enter builds.
+**
+!Dockerfile
+!.dockerignore
+!pyproject.toml
+!uv.lock
+!README.md
+!LICENSE
+!src/
+!src/**
+!configs/
+!configs/**
+!tests/
+!tests/**
+!leaderboard/
+!leaderboard/**
+**/__pycache__/
+**/*.pyc
+**/.env*

@@ -1,0 +1,13 @@
+name: Container smoke tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  container:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build --target test -t fwbench-test .
+      - run: docker run --rm --network none fwbench-test
+      - run: docker build -t fwbench .
+      - run: docker run --rm --network none fwbench results --input leaderboard/results.json

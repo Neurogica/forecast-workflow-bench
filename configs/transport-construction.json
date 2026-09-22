@@ -1,0 +1,21 @@
+{
+  "domain": "cycle_hire",
+  "source": "Transport for London open cycle-hire trip files",
+  "created_at": "2026-09-15T15:53:10.669747+00:00",
+  "target_dates": [
+    "2026-05-03",
+    "2026-05-11",
+    "2026-05-19",
+    "2026-05-27"
+  ],
+  "lead_days": [
+    1,
+    7
+  ],
+  "history_hours": 336,
+  "stations": 20,
+  "station_selection": "Top 20 start stations by departure count during 2026-04-01 through 2026-04-07 inclusive; tie by station ID. Frozen before inspecting demand or forecasts.",
+  "quality": "Validate archive coverage and unique journey IDs; count recorded departures per hour, including zero counts. Require every complete local calendar day in history to have a departure (partial boundary days are not tested) and positive history mean. Retain zero target hours; no loss filtering. Incomplete source coverage excludes cases.",
+  "interpretation": "Observed completed cycle-hire departures, not unconstrained latent demand. Simulated hourly dispatch/service capacity; no inventory or rebalancing dynamics. Costs and ramps are simulated, not TfL operational economics.",
+  "budget": 113726
+}

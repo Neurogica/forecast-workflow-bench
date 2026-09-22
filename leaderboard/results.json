@@ -1,0 +1,451 @@
+{
+  "version": "FWBench",
+  "case_count": 1251,
+  "ranking_metric": "score",
+  "complete": true,
+  "models": [
+    {
+      "model": "qwen3-4b-q8--think0",
+      "label": "Qwen3 4B",
+      "group": 1,
+      "scored": 1251,
+      "complete": true,
+      "valid": 1242,
+      "loss": 0.7174642920011947,
+      "credits": 0.0,
+      "score": 4.54782545613411,
+      "normalized_excess": 9.09565091226822
+    },
+    {
+      "model": "qwen3-4b-q8--think1",
+      "label": "Qwen3 4B (thinking)",
+      "group": 1,
+      "scored": 1251,
+      "complete": true,
+      "valid": 1237,
+      "loss": 0.5195564059042349,
+      "credits": 0.0,
+      "score": 2.5232375113486047,
+      "normalized_excess": 5.0464750226972095
+    },
+    {
+      "model": "gemma4-e4b-qat-q4--think0",
+      "label": "Gemma 4 E4B",
+      "group": 1,
+      "scored": 1251,
+      "complete": true,
+      "valid": 1019,
+      "loss": 0.7073805409081982,
+      "credits": 74.07793814432989,
+      "score": 4.6294259321709985,
+      "normalized_excess": 9.258200492288601
+    },
+    {
+      "model": "gemma4-e4b-qat-q4--think1",
+      "label": "Gemma 4 E4B (thinking)",
+      "group": 1,
+      "scored": 1251,
+      "complete": true,
+      "valid": 1251,
+      "loss": 0.3648756755588611,
+      "credits": 1209.0420970112136,
+      "score": 1.046485414714736,
+      "normalized_excess": 2.0823396448541662
+    },
+    {
+      "model": "gemma4-12b-qat-q4--think0",
+      "label": "Gemma 4 12B",
+      "group": 0,
+      "scored": 1251,
+      "complete": true,
+      "valid": 766,
+      "loss": 0.96111193595147,
+      "credits": 46091.08871612558,
+      "score": 7.3281263690396345,
+      "normalized_excess": 14.250970843735622
+    },
+    {
+      "model": "gemma4-12b-qat-q4--think1",
+      "label": "Gemma 4 12B (thinking)",
+      "group": 0,
+      "scored": 1251,
+      "complete": true,
+      "valid": 490,
+      "loss": 1.2836804333349146,
+      "credits": 58103.64954810243,
+      "score": 10.635820248658655,
+      "normalized_excess": 20.7607313864007
+    },
+    {
+      "model": "qwen36-35b-a3b-q4--think0",
+      "label": "Qwen3.6 35B-A3B",
+      "group": 0,
+      "scored": 1251,
+      "complete": true,
+      "valid": 3,
+      "loss": 2.0079847818551344,
+      "credits": 1176.3258147947188,
+      "score": 17.977299034392917,
+      "normalized_excess": 35.94425456057492
+    },
+    {
+      "model": "qwen36-35b-a3b-q4--think1",
+      "label": "Qwen3.6 35B-A3B (thinking)",
+      "group": 0,
+      "scored": 1251,
+      "complete": true,
+      "valid": 160,
+      "loss": 1.8533385685205932,
+      "credits": 1464.1859199222283,
+      "score": 16.46317900199694,
+      "normalized_excess": 32.913483323446584
+    },
+    {
+      "model": "gpt-6-astra",
+      "label": "GPT-6 Astra",
+      "group": 2,
+      "scored": 1251,
+      "complete": true,
+      "valid": 1251,
+      "loss": 0.30443019856023174,
+      "credits": 2801.713651202749,
+      "score": 0.3964015659873375,
+      "normalized_excess": 0.768167484442864
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "label": "GPT-5.4 nano",
+      "group": 2,
+      "scored": 1251,
+      "complete": true,
+      "valid": 1139,
+      "loss": 0.5160174267183532,
+      "credits": 2885.562482064267,
+      "score": 2.6410526792095452,
+      "normalized_excess": 5.256732422748582
+    }
+  ],
+  "fixed_references": [
+    {
+      "model": "weekday_empirical",
+      "label": "Weekday empirical",
+      "valid": 1251,
+      "loss": 0.3219750026719597,
+      "credits": 0.0,
+      "score": 0.5725705714412078,
+      "normalized_excess": 1.1451411428824156,
+      "budget_fraction": 0.0,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.06291131991139381,
+          "credits": 0.0,
+          "score": 0.43243287158596916
+        },
+        "electricity-winter": {
+          "loss": 0.07464302847197873,
+          "credits": 0.0,
+          "score": 0.5513757949465915
+        },
+        "electricity-august": {
+          "loss": 0.05157116626333404,
+          "credits": 0.0,
+          "score": 0.317440116353645
+        },
+        "cycle-hire-may": {
+          "loss": 0.5809081671283506,
+          "credits": 0.0,
+          "score": 0.7113915485870138
+        }
+      }
+    },
+    {
+      "model": "weekly_repeat",
+      "label": "Weekly repeat",
+      "valid": 1251,
+      "loss": 0.3355229118699043,
+      "credits": 0.0,
+      "score": 0.7193391040893155,
+      "normalized_excess": 1.438678208178631,
+      "budget_fraction": 0.0,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.07501076410892706,
+          "credits": 0.0,
+          "score": 0.5440373691043959
+        },
+        "electricity-winter": {
+          "loss": 0.07081733899909835,
+          "credits": 0.0,
+          "score": 0.5160878805340108
+        },
+        "electricity-august": {
+          "loss": 0.06758901526463779,
+          "credits": 0.0,
+          "score": 0.4651877285523107
+        },
+        "cycle-hire-may": {
+          "loss": 0.5999067842822542,
+          "credits": 0.0,
+          "score": 0.9302405487817251
+        }
+      }
+    },
+    {
+      "model": "all_hour_empirical",
+      "label": "All hour empirical",
+      "valid": 1251,
+      "loss": 0.3863559211462154,
+      "credits": 0.0,
+      "score": 1.2849609561589945,
+      "normalized_excess": 2.569921912317989,
+      "budget_fraction": 0.0,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.092585696509424,
+          "credits": 0.0,
+          "score": 0.7061474187443344
+        },
+        "electricity-winter": {
+          "loss": 0.0830793441232184,
+          "credits": 0.0,
+          "score": 0.6291918296166299
+        },
+        "electricity-august": {
+          "loss": 0.08986120668722089,
+          "credits": 0.0,
+          "score": 0.6706249942457521
+        },
+        "cycle-hire-may": {
+          "loss": 0.6842030931858097,
+          "credits": 0.0,
+          "score": 1.901267164782417
+        }
+      }
+    },
+    {
+      "model": "calendar_residual",
+      "label": "Calendar residual",
+      "valid": 1251,
+      "loss": 0.34274818507313765,
+      "credits": 0.0,
+      "score": 0.7812455852867884,
+      "normalized_excess": 1.562491170573577,
+      "budget_fraction": 0.0,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.08294439470839679,
+          "credits": 0.0,
+          "score": 0.6172166690867166
+        },
+        "electricity-winter": {
+          "loss": 0.10371166340716952,
+          "credits": 0.0,
+          "score": 0.8195030198442407
+        },
+        "electricity-august": {
+          "loss": 0.0825007156778501,
+          "credits": 0.0,
+          "score": 0.6027322970954813
+        },
+        "cycle-hire-may": {
+          "loss": 0.5957774455484699,
+          "credits": 0.0,
+          "score": 0.8826738418980974
+        }
+      }
+    },
+    {
+      "model": "recent_week_empirical",
+      "label": "Recent week empirical",
+      "valid": 1251,
+      "loss": 0.3824096224750039,
+      "credits": 0.0,
+      "score": 1.239303182447134,
+      "normalized_excess": 2.478606364894268,
+      "budget_fraction": 0.0,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.09548564489321298,
+          "credits": 0.0,
+          "score": 0.7328963567053132
+        },
+        "electricity-winter": {
+          "loss": 0.07813030720183348,
+          "credits": 0.0,
+          "score": 0.5835422303628136
+        },
+        "electricity-august": {
+          "loss": 0.09243191512198101,
+          "credits": 0.0,
+          "score": 0.6943370440262101
+        },
+        "cycle-hire-may": {
+          "loss": 0.6761366225443319,
+          "credits": 0.0,
+          "score": 1.808347821196156
+        }
+      }
+    },
+    {
+      "model": "recent_day_empirical",
+      "label": "Recent day empirical",
+      "valid": 1251,
+      "loss": 0.3897032072242409,
+      "credits": 0.0,
+      "score": 1.3221521501563467,
+      "normalized_excess": 2.6443043003126934,
+      "budget_fraction": 0.0,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.10055011063699622,
+          "credits": 0.0,
+          "score": 0.7796106640161767
+        },
+        "electricity-winter": {
+          "loss": 0.07383431839025227,
+          "credits": 0.0,
+          "score": 0.5439163050034446
+        },
+        "electricity-august": {
+          "loss": 0.0947149562250321,
+          "credits": 0.0,
+          "score": 0.7153956687828644
+        },
+        "cycle-hire-may": {
+          "loss": 0.6897066193643883,
+          "credits": 0.0,
+          "score": 1.964663421045198
+        }
+      }
+    },
+    {
+      "model": "hour_of_day_empirical",
+      "label": "Hour of day empirical",
+      "valid": 1251,
+      "loss": 0.31651955791257924,
+      "credits": 0.0,
+      "score": 0.5147289038967671,
+      "normalized_excess": 1.0294578077935341,
+      "budget_fraction": 0.0,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05270977308745508,
+          "credits": 0.0,
+          "score": 0.33833445775729903
+        },
+        "electricity-winter": {
+          "loss": 0.07682649958293929,
+          "credits": 0.0,
+          "score": 0.5715159924801638
+        },
+        "electricity-august": {
+          "loss": 0.046516984124880596,
+          "credits": 0.0,
+          "score": 0.2708206643590069
+        },
+        "cycle-hire-may": {
+          "loss": 0.5743546968934001,
+          "credits": 0.0,
+          "score": 0.635900769594711
+        }
+      }
+    },
+    {
+      "model": "level_adjusted_weekly",
+      "label": "Level adjusted weekly",
+      "valid": 1251,
+      "loss": 0.3438891693832664,
+      "credits": 0.0,
+      "score": 0.8053308176916634,
+      "normalized_excess": 1.6106616353833267,
+      "budget_fraction": 0.0,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.08558721157915916,
+          "credits": 0.0,
+          "score": 0.6415938424576048
+        },
+        "electricity-winter": {
+          "loss": 0.08634803060356086,
+          "credits": 0.0,
+          "score": 0.6593419841384607
+        },
+        "electricity-august": {
+          "loss": 0.06861837713501959,
+          "credits": 0.0,
+          "score": 0.4746824964468567
+        },
+        "cycle-hire-may": {
+          "loss": 0.6075937989939529,
+          "credits": 0.0,
+          "score": 1.018788861035686
+        }
+      }
+    },
+    {
+      "model": "chronos_bolt_tiny",
+      "label": "Chronos bolt tiny",
+      "valid": 1251,
+      "loss": 0.30866260249591804,
+      "credits": 39100.3590341834,
+      "score": 0.6013867159556793,
+      "normalized_excess": 0.8589614712850868,
+      "budget_fraction": 0.34381196062627184,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05172638595916151,
+          "credits": 39941.175257731964,
+          "score": 0.504866413695248
+        },
+        "electricity-winter": {
+          "loss": 0.06654609080834833,
+          "credits": 38674.97894736842,
+          "score": 0.6467259442176142
+        },
+        "electricity-august": {
+          "loss": 0.044036713328534496,
+          "credits": 38996.5,
+          "score": 0.41939216630108733
+        },
+        "cycle-hire-may": {
+          "loss": 0.563222141626488,
+          "credits": 38996.5,
+          "score": 0.6791119238400423
+        }
+      }
+    },
+    {
+      "model": "chronos2",
+      "label": "Chronos2",
+      "valid": 1251,
+      "loss": 0.3050192236332927,
+      "credits": 108782.86525592332,
+      "score": 0.8651446087797268,
+      "normalized_excess": 0.7737545178784367,
+      "budget_fraction": 0.9565346996810168,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.049269549761478695,
+          "credits": 108919.40206185568,
+          "score": 0.7854696966485696
+        },
+        "electricity-winter": {
+          "loss": 0.06891027890073824,
+          "credits": 108713.7894736842,
+          "score": 0.9764609364108825
+        },
+        "electricity-august": {
+          "loss": 0.0457883605636979,
+          "credits": 108765.99999999999,
+          "score": 0.7422930885494746
+        },
+        "cycle-hire-may": {
+          "loss": 0.5553823841912805,
+          "credits": 108766.0,
+          "score": 0.8955479770231447
+        }
+      }
+    }
+  ],
+  "scope": "Hosted full pool only. TSFM removal claims apply to local configurations. Incomplete cells do not receive scores or ranking."
+}
