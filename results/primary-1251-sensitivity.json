@@ -1,0 +1,2752 @@
+{
+  "version": "primary-1251-v2",
+  "complete": true,
+  "progress": [
+    {
+      "model": "qwen3-0.6b-q8",
+      "scored": 1251,
+      "expected": 1251,
+      "complete": true,
+      "infrastructure_cases": []
+    },
+    {
+      "model": "qwen3-1.7b-q8",
+      "scored": 1251,
+      "expected": 1251,
+      "complete": true,
+      "infrastructure_cases": []
+    },
+    {
+      "model": "qwen3-4b-q8",
+      "scored": 1251,
+      "expected": 1251,
+      "complete": true,
+      "infrastructure_cases": []
+    },
+    {
+      "model": "gemma4-e2b-qat-q4",
+      "scored": 1251,
+      "expected": 1251,
+      "complete": true,
+      "infrastructure_cases": []
+    },
+    {
+      "model": "gemma4-e4b-qat-q4",
+      "scored": 1251,
+      "expected": 1251,
+      "complete": true,
+      "infrastructure_cases": []
+    },
+    {
+      "model": "gemma4-12b-qat-q4",
+      "scored": 1251,
+      "expected": 1251,
+      "complete": true,
+      "infrastructure_cases": []
+    },
+    {
+      "model": "qwen36-35b-a3b-q4",
+      "scored": 1251,
+      "expected": 1251,
+      "complete": true,
+      "infrastructure_cases": []
+    },
+    {
+      "model": "qwen36-27b-q4",
+      "scored": 1251,
+      "expected": 1251,
+      "complete": true,
+      "infrastructure_cases": []
+    },
+    {
+      "model": "gpt-5-nano-2025-08-07",
+      "scored": 1251,
+      "expected": 1251,
+      "complete": true,
+      "infrastructure_cases": []
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "scored": 1251,
+      "expected": 1251,
+      "complete": true,
+      "infrastructure_cases": []
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "scored": 1251,
+      "expected": 1251,
+      "complete": true,
+      "infrastructure_cases": []
+    },
+    {
+      "model": "gpt-6-astra",
+      "scored": 1251,
+      "expected": 1251,
+      "complete": true,
+      "infrastructure_cases": []
+    }
+  ],
+  "summaries": [
+    {
+      "model": "fixed_chronos2",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 0.30501922363328965,
+      "credits": 108782.8652559232,
+      "g_cost": 0.017059424257094773,
+      "objective": 0.30501922363328965,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.049269549761478834,
+          "credits": 108919.40206185593
+        },
+        "electricity-winter": {
+          "loss": 0.06891027890073805,
+          "credits": 108713.78947368436
+        },
+        "electricity-august": {
+          "loss": 0.045788360563698303,
+          "credits": 108766.00000000114
+        },
+        "cycle-hire-may": {
+          "loss": 0.5553823841912818,
+          "credits": 108766.00000000055
+        }
+      },
+      "case_weighted_loss": 0.11768470436726591
+    },
+    {
+      "model": "fixed_empirical",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 0.316519557912576,
+      "credits": 0.0,
+      "g_cost": 0.028559758536381152,
+      "objective": 0.316519557912576,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05270977308745529,
+          "credits": 0.0
+        },
+        "electricity-winter": {
+          "loss": 0.07682649958293909,
+          "credits": 0.0
+        },
+        "electricity-august": {
+          "loss": 0.04651698412488097,
+          "credits": 0.0
+        },
+        "cycle-hire-may": {
+          "loss": 0.5743546968934014,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 0.12363238482182799
+    },
+    {
+      "model": "fixed_router",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 0.30848800419614036,
+      "credits": 51726.516657622764,
+      "g_cost": 0.020528204819945585,
+      "objective": 0.30848800419614036,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05031344970806817,
+          "credits": 50297.75257731959
+        },
+        "electricity-winter": {
+          "loss": 0.06734061629992322,
+          "credits": 52449.3473684208
+        },
+        "electricity-august": {
+          "loss": 0.044123309929560484,
+          "credits": 51903.000000000364
+        },
+        "cycle-hire-may": {
+          "loss": 0.5630502164131045,
+          "credits": 51903.00000000006
+        }
+      },
+      "case_weighted_loss": 0.11814218560613649
+    },
+    {
+      "model": "gemma4-12b-qat-q4",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 0.581718937347199,
+      "credits": 54692.41012765991,
+      "g_cost": 0.2937591379710042,
+      "objective": 0.581718937347199,
+      "valid": 1072,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.41464043818060164,
+          "credits": 46398.17611683864
+        },
+        "electricity-winter": {
+          "loss": 0.26347402872300574,
+          "credits": 37182.64298245603
+        },
+        "electricity-august": {
+          "loss": 0.2600801732976183,
+          "credits": 36235.30416666699
+        },
+        "cycle-hire-may": {
+          "loss": 0.850706327960669,
+          "credits": 69446.11250000012
+        }
+      },
+      "case_weighted_loss": 0.38488002469109095
+    },
+    {
+      "model": "gemma4-e2b-qat-q4",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 0.7195410278907746,
+      "credits": 75142.46811753859,
+      "g_cost": 0.43158122851457864,
+      "objective": 0.7195410278907746,
+      "valid": 900,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.6511836797882788,
+          "credits": 68693.61254295538
+        },
+        "electricity-winter": {
+          "loss": 0.5697451140616051,
+          "credits": 69575.24824561384
+        },
+        "electricity-august": {
+          "loss": 0.5780490871592989,
+          "credits": 66650.54166666728
+        },
+        "cycle-hire-may": {
+          "loss": 0.8394227621118364,
+          "credits": 81978.46875000015
+        }
+      },
+      "case_weighted_loss": 0.6245557646628973
+    },
+    {
+      "model": "gemma4-e4b-qat-q4",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 0.7827724535978914,
+      "credits": 22619.787469818042,
+      "g_cost": 0.4948126542216965,
+      "objective": 0.7827724535978914,
+      "valid": 947,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.5759089292818972,
+          "credits": 29744.557560137524
+        },
+        "electricity-winter": {
+          "loss": 0.49195844715988146,
+          "credits": 27438.25350877185
+        },
+        "electricity-august": {
+          "loss": 0.5313932168345032,
+          "credits": 29134.070000000294
+        },
+        "cycle-hire-may": {
+          "loss": 1.032458042770373,
+          "credits": 16467.28125000005
+        }
+      },
+      "case_weighted_loss": 0.6013285902590938
+    },
+    {
+      "model": "gpt-5-nano-2025-08-07",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 0.5035906690493356,
+      "credits": 21008.187012042417,
+      "g_cost": 0.2156308696731402,
+      "objective": 0.5035906690493356,
+      "valid": 1200,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.22450286781934084,
+          "credits": 31212.232817869488
+        },
+        "electricity-winter": {
+          "loss": 0.24744811414254028,
+          "credits": 26200.41842105258
+        },
+        "electricity-august": {
+          "loss": 0.2699875600062501,
+          "credits": 24264.033333333555
+        },
+        "cycle-hire-may": {
+          "loss": 0.7598684907759709,
+          "credits": 14790.812500000038
+        }
+      },
+      "case_weighted_loss": 0.31331234686339365
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 0.9941015189973534,
+      "credits": 7278.9464569014535,
+      "g_cost": 0.7061417196211577,
+      "objective": 0.9941015189973534,
+      "valid": 750,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.8671094589719017,
+          "credits": 5850.2774914089305
+        },
+        "electricity-winter": {
+          "loss": 0.7115199144558003,
+          "credits": 8194.71666666663
+        },
+        "electricity-august": {
+          "loss": 0.7384387847395669,
+          "credits": 8192.12833333342
+        },
+        "cycle-hire-may": {
+          "loss": 1.2158469852723042,
+          "credits": 7145.518750000017
+        }
+      },
+      "case_weighted_loss": 0.8350137663482466
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 0.4710837905990625,
+      "credits": 33577.32556761291,
+      "g_cost": 0.18312399122286674,
+      "objective": 0.4710837905990625,
+      "valid": 1172,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.17592482702994144,
+          "credits": 33798.16323024056
+        },
+        "electricity-winter": {
+          "loss": 0.16804117033096916,
+          "credits": 37486.52017543848
+        },
+        "electricity-august": {
+          "loss": 0.17337464458169105,
+          "credits": 38322.307500000294
+        },
+        "cycle-hire-may": {
+          "loss": 0.7697207005506002,
+          "credits": 30618.987500000072
+        }
+      },
+      "case_weighted_loss": 0.2489783924817478
+    },
+    {
+      "model": "gpt-6-astra",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 0.30623728744870954,
+      "credits": 112429.1105194574,
+      "g_cost": 0.01827748807251383,
+      "objective": 0.30623728744870954,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.04877599511401555,
+          "credits": 112505.32903780142
+        },
+        "electricity-winter": {
+          "loss": 0.06652835961954794,
+          "credits": 112969.4815789476
+        },
+        "electricity-august": {
+          "loss": 0.04443440562397269,
+          "credits": 112310.14000000137
+        },
+        "cycle-hire-may": {
+          "loss": 0.5592283214449133,
+          "credits": 112263.23750000057
+        }
+      },
+      "case_weighted_loss": 0.11698786404216044
+    },
+    {
+      "model": "qwen3-0.6b-q8",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 1.6675063112630517,
+      "credits": 0.0,
+      "g_cost": 1.3795465118868548,
+      "objective": 1.6675063112630517,
+      "valid": 542,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.2401012093823511,
+          "credits": 0.0
+        },
+        "electricity-winter": {
+          "loss": 1.2011510335986182,
+          "credits": 0.0
+        },
+        "electricity-august": {
+          "loss": 1.229741597439069,
+          "credits": 0.0
+        },
+        "cycle-hire-may": {
+          "loss": 2.1113480090527896,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 1.3318826191117863
+    },
+    {
+      "model": "qwen3-1.7b-q8",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 1.646596608003323,
+      "credits": 74037.43520388653,
+      "g_cost": 1.3586368086271277,
+      "objective": 1.646596608003323,
+      "valid": 184,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.6895195313902112,
+          "credits": 82797.36168384895
+        },
+        "electricity-winter": {
+          "loss": 1.5884870868633922,
+          "credits": 81698.96578947356
+        },
+        "electricity-august": {
+          "loss": 1.5744668971870945,
+          "credits": 87266.67750000095
+        },
+        "cycle-hire-may": {
+          "loss": 1.6757020441931125,
+          "credits": 64153.86875000015
+        }
+      },
+      "case_weighted_loss": 1.625780986327799
+    },
+    {
+      "model": "qwen3-4b-q8",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 0.710489649566642,
+      "credits": 784.478770121173,
+      "g_cost": 0.4225298501904471,
+      "objective": 0.710489649566642,
+      "valid": 1227,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.6022978831177765,
+          "credits": 894.3505154639203
+        },
+        "electricity-winter": {
+          "loss": 0.5408824142386658,
+          "credits": 2511.2421052631516
+        },
+        "electricity-august": {
+          "loss": 0.598853096818462,
+          "credits": 1301.2800000000116
+        },
+        "cycle-hire-may": {
+          "loss": 0.8403015010749982,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 0.6130567998821783
+    },
+    {
+      "model": "qwen36-27b-q4",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 2.008957303001644,
+      "credits": 6256.495365044869,
+      "g_cost": 1.7209975036254492,
+      "objective": 2.008957303001644,
+      "valid": 14,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.8186337130561088,
+          "credits": 10258.837628866013
+        },
+        "electricity-winter": {
+          "loss": 1.765488668946934,
+          "credits": 4715.50789473683
+        },
+        "electricity-august": {
+          "loss": 1.8325613232720288,
+          "credits": 5344.889166666713
+        },
+        "cycle-hire-may": {
+          "loss": 2.212353370911638,
+          "credits": 5739.912500000015
+        }
+      },
+      "case_weighted_loss": 1.8563908472422022
+    },
+    {
+      "model": "qwen36-35b-a3b-q4",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 2.0132580430690825,
+      "credits": 7059.350343906324,
+      "g_cost": 1.7252982436928872,
+      "objective": 2.0132580430690825,
+      "valid": 12,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.8362222026599342,
+          "credits": 10928.225945017206
+        },
+        "electricity-winter": {
+          "loss": 1.7613231706760375,
+          "credits": 8213.064035087698
+        },
+        "electricity-august": {
+          "loss": 1.8173155138914936,
+          "credits": 9831.605833333415
+        },
+        "cycle-hire-may": {
+          "loss": 2.2215624570623826,
+          "credits": 4461.068750000011
+        }
+      },
+      "case_weighted_loss": 1.8587892282165872
+    },
+    {
+      "model": "cost_aware_oracle",
+      "coefficient": 0,
+      "cases": 1251,
+      "loss": 0.2879597993761947,
+      "credits": 24955.981236058065,
+      "g_cost": 0
+    },
+    {
+      "model": "fixed_chronos2",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 0.30501922363328965,
+      "credits": 108782.8652559232,
+      "g_cost": 0.017815554233324517,
+      "objective": 0.30597575833297064,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.049269549761478834,
+          "credits": 108919.40206185593
+        },
+        "electricity-winter": {
+          "loss": 0.06891027890073805,
+          "credits": 108713.78947368436
+        },
+        "electricity-august": {
+          "loss": 0.045788360563698303,
+          "credits": 108766.00000000114
+        },
+        "cycle-hire-may": {
+          "loss": 0.5553823841912818,
+          "credits": 108766.00000000055
+        }
+      },
+      "case_weighted_loss": 0.11768470436726591
+    },
+    {
+      "model": "fixed_empirical",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 0.316519557912576,
+      "credits": 0.0,
+      "g_cost": 0.02835935381292992,
+      "objective": 0.316519557912576,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05270977308745529,
+          "credits": 0.0
+        },
+        "electricity-winter": {
+          "loss": 0.07682649958293909,
+          "credits": 0.0
+        },
+        "electricity-august": {
+          "loss": 0.04651698412488097,
+          "credits": 0.0
+        },
+        "cycle-hire-may": {
+          "loss": 0.5743546968934014,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 0.12363238482182799
+    },
+    {
+      "model": "fixed_router",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 0.30848800419614036,
+      "credits": 51726.516657622764,
+      "g_cost": 0.020782634669570168,
+      "objective": 0.3089428387692162,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05031344970806817,
+          "credits": 50297.75257731959
+        },
+        "electricity-winter": {
+          "loss": 0.06734061629992322,
+          "credits": 52449.3473684208
+        },
+        "electricity-august": {
+          "loss": 0.044123309929560484,
+          "credits": 51903.000000000364
+        },
+        "cycle-hire-may": {
+          "loss": 0.5630502164131045,
+          "credits": 51903.00000000006
+        }
+      },
+      "case_weighted_loss": 0.11814218560613649
+    },
+    {
+      "model": "gemma4-12b-qat-q4",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 0.581718937347199,
+      "credits": 54692.41012765991,
+      "g_cost": 0.29403964711182,
+      "objective": 0.5821998512114663,
+      "valid": 1072,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.41464043818060164,
+          "credits": 46398.17611683864
+        },
+        "electricity-winter": {
+          "loss": 0.26347402872300574,
+          "credits": 37182.64298245603
+        },
+        "electricity-august": {
+          "loss": 0.2600801732976183,
+          "credits": 36235.30416666699
+        },
+        "cycle-hire-may": {
+          "loss": 0.850706327960669,
+          "credits": 69446.11250000012
+        }
+      },
+      "case_weighted_loss": 0.38488002469109095
+    },
+    {
+      "model": "gemma4-e2b-qat-q4",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 0.7195410278907746,
+      "credits": 75142.46811753859,
+      "g_cost": 0.4320415563247398,
+      "objective": 0.7202017604243864,
+      "valid": 900,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.6511836797882788,
+          "credits": 68693.61254295538
+        },
+        "electricity-winter": {
+          "loss": 0.5697451140616051,
+          "credits": 69575.24824561384
+        },
+        "electricity-august": {
+          "loss": 0.5780490871592989,
+          "credits": 66650.54166666728
+        },
+        "cycle-hire-may": {
+          "loss": 0.8394227621118364,
+          "credits": 81978.46875000015
+        }
+      },
+      "case_weighted_loss": 0.6245557646628973
+    },
+    {
+      "model": "gemma4-e4b-qat-q4",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 0.7827724535978914,
+      "credits": 22619.787469818042,
+      "g_cost": 0.4948111467378374,
+      "objective": 0.7829713508374831,
+      "valid": 947,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.5759089292818972,
+          "credits": 29744.557560137524
+        },
+        "electricity-winter": {
+          "loss": 0.49195844715988146,
+          "credits": 27438.25350877185
+        },
+        "electricity-august": {
+          "loss": 0.5313932168345032,
+          "credits": 29134.070000000294
+        },
+        "cycle-hire-may": {
+          "loss": 1.032458042770373,
+          "credits": 16467.28125000005
+        }
+      },
+      "case_weighted_loss": 0.6013285902590938
+    },
+    {
+      "model": "gpt-5-nano-2025-08-07",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 0.5035906690493356,
+      "credits": 21008.187012042417,
+      "g_cost": 0.21561519128326292,
+      "objective": 0.5037753953829096,
+      "valid": 1200,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.22450286781934084,
+          "credits": 31212.232817869488
+        },
+        "electricity-winter": {
+          "loss": 0.24744811414254028,
+          "credits": 26200.41842105258
+        },
+        "electricity-august": {
+          "loss": 0.2699875600062501,
+          "credits": 24264.033333333555
+        },
+        "cycle-hire-may": {
+          "loss": 0.7598684907759709,
+          "credits": 14790.812500000038
+        }
+      },
+      "case_weighted_loss": 0.31331234686339365
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 0.9941015189973534,
+      "credits": 7278.9464569014535,
+      "g_cost": 0.7060053191399819,
+      "objective": 0.9941655232396278,
+      "valid": 750,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.8671094589719017,
+          "credits": 5850.2774914089305
+        },
+        "electricity-winter": {
+          "loss": 0.7115199144558003,
+          "credits": 8194.71666666663
+        },
+        "electricity-august": {
+          "loss": 0.7384387847395669,
+          "credits": 8192.12833333342
+        },
+        "cycle-hire-may": {
+          "loss": 1.2158469852723042,
+          "credits": 7145.518750000017
+        }
+      },
+      "case_weighted_loss": 0.8350137663482466
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 0.4710837905990625,
+      "credits": 33577.32556761291,
+      "g_cost": 0.18321883407312423,
+      "objective": 0.4713790381727714,
+      "valid": 1172,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.17592482702994144,
+          "credits": 33798.16323024056
+        },
+        "electricity-winter": {
+          "loss": 0.16804117033096916,
+          "credits": 37486.52017543848
+        },
+        "electricity-august": {
+          "loss": 0.17337464458169105,
+          "credits": 38322.307500000294
+        },
+        "cycle-hire-may": {
+          "loss": 0.7697207005506002,
+          "credits": 30618.987500000072
+        }
+      },
+      "case_weighted_loss": 0.2489783924817478
+    },
+    {
+      "model": "gpt-6-astra",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 0.30623728744870954,
+      "credits": 112429.1105194574,
+      "g_cost": 0.019065679716818933,
+      "objective": 0.3072258838164659,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.04877599511401555,
+          "credits": 112505.32903780142
+        },
+        "electricity-winter": {
+          "loss": 0.06652835961954794,
+          "credits": 112969.4815789476
+        },
+        "electricity-august": {
+          "loss": 0.04443440562397269,
+          "credits": 112310.14000000137
+        },
+        "cycle-hire-may": {
+          "loss": 0.5592283214449133,
+          "credits": 112263.23750000057
+        }
+      },
+      "case_weighted_loss": 0.11698786404216044
+    },
+    {
+      "model": "qwen3-0.6b-q8",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 1.6675063112630517,
+      "credits": 0.0,
+      "g_cost": 1.379346107163404,
+      "objective": 1.6675063112630517,
+      "valid": 542,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.2401012093823511,
+          "credits": 0.0
+        },
+        "electricity-winter": {
+          "loss": 1.2011510335986182,
+          "credits": 0.0
+        },
+        "electricity-august": {
+          "loss": 1.229741597439069,
+          "credits": 0.0
+        },
+        "cycle-hire-may": {
+          "loss": 2.1113480090527896,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 1.3318826191117863
+    },
+    {
+      "model": "qwen3-1.7b-q8",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 1.646596608003323,
+      "credits": 74037.43520388653,
+      "g_cost": 1.3590874198121203,
+      "objective": 1.6472476239117686,
+      "valid": 184,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.6895195313902112,
+          "credits": 82797.36168384895
+        },
+        "electricity-winter": {
+          "loss": 1.5884870868633922,
+          "credits": 81698.96578947356
+        },
+        "electricity-august": {
+          "loss": 1.5744668971870945,
+          "credits": 87266.67750000095
+        },
+        "cycle-hire-may": {
+          "loss": 1.6757020441931125,
+          "credits": 64153.86875000015
+        }
+      },
+      "case_weighted_loss": 1.625780986327799
+    },
+    {
+      "model": "qwen3-4b-q8",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 0.710489649566642,
+      "credits": 784.478770121173,
+      "g_cost": 0.4223363434390524,
+      "objective": 0.7104965475386986,
+      "valid": 1227,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.6022978831177765,
+          "credits": 894.3505154639203
+        },
+        "electricity-winter": {
+          "loss": 0.5408824142386658,
+          "credits": 2511.2421052631516
+        },
+        "electricity-august": {
+          "loss": 0.598853096818462,
+          "credits": 1301.2800000000116
+        },
+        "cycle-hire-may": {
+          "loss": 0.8403015010749982,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 0.6130567998821783
+    },
+    {
+      "model": "qwen36-27b-q4",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 2.008957303001644,
+      "credits": 6256.495365044869,
+      "g_cost": 1.7208521126663516,
+      "objective": 2.009012316765999,
+      "valid": 14,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.8186337130561088,
+          "credits": 10258.837628866013
+        },
+        "electricity-winter": {
+          "loss": 1.765488668946934,
+          "credits": 4715.50789473683
+        },
+        "electricity-august": {
+          "loss": 1.8325613232720288,
+          "credits": 5344.889166666713
+        },
+        "cycle-hire-may": {
+          "loss": 2.212353370911638,
+          "credits": 5739.912500000015
+        }
+      },
+      "case_weighted_loss": 1.8563908472422022
+    },
+    {
+      "model": "qwen36-35b-a3b-q4",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 2.0132580430690825,
+      "credits": 7059.350343906324,
+      "g_cost": 1.7251599122890264,
+      "objective": 2.0133201163886745,
+      "valid": 12,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.8362222026599342,
+          "credits": 10928.225945017206
+        },
+        "electricity-winter": {
+          "loss": 1.7613231706760375,
+          "credits": 8213.064035087698
+        },
+        "electricity-august": {
+          "loss": 1.8173155138914936,
+          "credits": 9831.605833333415
+        },
+        "cycle-hire-may": {
+          "loss": 2.2215624570623826,
+          "credits": 4461.068750000011
+        }
+      },
+      "case_weighted_loss": 1.8587892282165872
+    },
+    {
+      "model": "cost_aware_oracle",
+      "coefficient": 0.001,
+      "cases": 1251,
+      "loss": 0.2879679609870592,
+      "credits": 21863.04022204864,
+      "g_cost": 0
+    },
+    {
+      "model": "fixed_chronos2",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 0.30501922363328965,
+      "credits": 108782.8652559232,
+      "g_cost": 0.019384924972409182,
+      "objective": 0.30788882773233267,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.049269549761478834,
+          "credits": 108919.40206185593
+        },
+        "electricity-winter": {
+          "loss": 0.06891027890073805,
+          "credits": 108713.78947368436
+        },
+        "electricity-august": {
+          "loss": 0.045788360563698303,
+          "credits": 108766.00000000114
+        },
+        "cycle-hire-may": {
+          "loss": 0.5553823841912818,
+          "credits": 108766.00000000055
+        }
+      },
+      "case_weighted_loss": 0.11768470436726591
+    },
+    {
+      "model": "fixed_empirical",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 0.316519557912576,
+      "credits": 0.0,
+      "g_cost": 0.028015655152652523,
+      "objective": 0.316519557912576,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05270977308745529,
+          "credits": 0.0
+        },
+        "electricity-winter": {
+          "loss": 0.07682649958293909,
+          "credits": 0.0
+        },
+        "electricity-august": {
+          "loss": 0.04651698412488097,
+          "credits": 0.0
+        },
+        "cycle-hire-may": {
+          "loss": 0.5743546968934014,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 0.12363238482182799
+    },
+    {
+      "model": "fixed_router",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 0.30848800419614036,
+      "credits": 51726.516657622764,
+      "g_cost": 0.021348605155444483,
+      "objective": 0.3098525079153679,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05031344970806817,
+          "credits": 50297.75257731959
+        },
+        "electricity-winter": {
+          "loss": 0.06734061629992322,
+          "credits": 52449.3473684208
+        },
+        "electricity-august": {
+          "loss": 0.044123309929560484,
+          "credits": 51903.000000000364
+        },
+        "cycle-hire-may": {
+          "loss": 0.5630502164131045,
+          "credits": 51903.00000000006
+        }
+      },
+      "case_weighted_loss": 0.11814218560613649
+    },
+    {
+      "model": "gemma4-12b-qat-q4",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 0.581718937347199,
+      "credits": 54692.41012765991,
+      "g_cost": 0.29465777618007694,
+      "objective": 0.5831616789400008,
+      "valid": 1072,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.41464043818060164,
+          "credits": 46398.17611683864
+        },
+        "electricity-winter": {
+          "loss": 0.26347402872300574,
+          "credits": 37182.64298245603
+        },
+        "electricity-august": {
+          "loss": 0.2600801732976183,
+          "credits": 36235.30416666699
+        },
+        "cycle-hire-may": {
+          "loss": 0.850706327960669,
+          "credits": 69446.11250000012
+        }
+      },
+      "case_weighted_loss": 0.38488002469109095
+    },
+    {
+      "model": "gemma4-e2b-qat-q4",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 0.7195410278907746,
+      "credits": 75142.46811753859,
+      "g_cost": 0.4330193227316852,
+      "objective": 0.7215232254916101,
+      "valid": 900,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.6511836797882788,
+          "credits": 68693.61254295538
+        },
+        "electricity-winter": {
+          "loss": 0.5697451140616051,
+          "credits": 69575.24824561384
+        },
+        "electricity-august": {
+          "loss": 0.5780490871592989,
+          "credits": 66650.54166666728
+        },
+        "cycle-hire-may": {
+          "loss": 0.8394227621118364,
+          "credits": 81978.46875000015
+        }
+      },
+      "case_weighted_loss": 0.6245557646628973
+    },
+    {
+      "model": "gemma4-e4b-qat-q4",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 0.7827724535978914,
+      "credits": 22619.787469818042,
+      "g_cost": 0.49486524255674386,
+      "objective": 0.7833691453166668,
+      "valid": 947,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.5759089292818972,
+          "credits": 29744.557560137524
+        },
+        "electricity-winter": {
+          "loss": 0.49195844715988146,
+          "credits": 27438.25350877185
+        },
+        "electricity-august": {
+          "loss": 0.5313932168345032,
+          "credits": 29134.070000000294
+        },
+        "cycle-hire-may": {
+          "loss": 1.032458042770373,
+          "credits": 16467.28125000005
+        }
+      },
+      "case_weighted_loss": 0.6013285902590938
+    },
+    {
+      "model": "gpt-5-nano-2025-08-07",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 0.5035906690493356,
+      "credits": 21008.187012042417,
+      "g_cost": 0.2156409452901334,
+      "objective": 0.5041448480500578,
+      "valid": 1200,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.22450286781934084,
+          "credits": 31212.232817869488
+        },
+        "electricity-winter": {
+          "loss": 0.24744811414254028,
+          "credits": 26200.41842105258
+        },
+        "electricity-august": {
+          "loss": 0.2699875600062501,
+          "credits": 24264.033333333555
+        },
+        "cycle-hire-may": {
+          "loss": 0.7598684907759709,
+          "credits": 14790.812500000038
+        }
+      },
+      "case_weighted_loss": 0.31331234686339365
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 0.9941015189973534,
+      "credits": 7278.9464569014535,
+      "g_cost": 0.7057896289642529,
+      "objective": 0.9942935317241767,
+      "valid": 750,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.8671094589719017,
+          "credits": 5850.2774914089305
+        },
+        "electricity-winter": {
+          "loss": 0.7115199144558003,
+          "credits": 8194.71666666663
+        },
+        "electricity-august": {
+          "loss": 0.7384387847395669,
+          "credits": 8192.12833333342
+        },
+        "cycle-hire-may": {
+          "loss": 1.2158469852723042,
+          "credits": 7145.518750000017
+        }
+      },
+      "case_weighted_loss": 0.8350137663482466
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 0.4710837905990625,
+      "credits": 33577.32556761291,
+      "g_cost": 0.18346563056026446,
+      "objective": 0.4719695333201891,
+      "valid": 1172,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.17592482702994144,
+          "credits": 33798.16323024056
+        },
+        "electricity-winter": {
+          "loss": 0.16804117033096916,
+          "credits": 37486.52017543848
+        },
+        "electricity-august": {
+          "loss": 0.17337464458169105,
+          "credits": 38322.307500000294
+        },
+        "cycle-hire-may": {
+          "loss": 0.7697207005506002,
+          "credits": 30618.987500000072
+        }
+      },
+      "case_weighted_loss": 0.2489783924817478
+    },
+    {
+      "model": "gpt-6-astra",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 0.30623728744870954,
+      "credits": 112429.1105194574,
+      "g_cost": 0.02069917379205426,
+      "objective": 0.30920307655197854,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.04877599511401555,
+          "credits": 112505.32903780142
+        },
+        "electricity-winter": {
+          "loss": 0.06652835961954794,
+          "credits": 112969.4815789476
+        },
+        "electricity-august": {
+          "loss": 0.04443440562397269,
+          "credits": 112310.14000000137
+        },
+        "cycle-hire-may": {
+          "loss": 0.5592283214449133,
+          "credits": 112263.23750000057
+        }
+      },
+      "case_weighted_loss": 0.11698786404216044
+    },
+    {
+      "model": "qwen3-0.6b-q8",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 1.6675063112630517,
+      "credits": 0.0,
+      "g_cost": 1.3790024085031256,
+      "objective": 1.6675063112630517,
+      "valid": 542,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.2401012093823511,
+          "credits": 0.0
+        },
+        "electricity-winter": {
+          "loss": 1.2011510335986182,
+          "credits": 0.0
+        },
+        "electricity-august": {
+          "loss": 1.229741597439069,
+          "credits": 0.0
+        },
+        "cycle-hire-may": {
+          "loss": 2.1113480090527896,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 1.3318826191117863
+    },
+    {
+      "model": "qwen3-1.7b-q8",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 1.646596608003323,
+      "credits": 74037.43520388653,
+      "g_cost": 1.3600457529687353,
+      "objective": 1.6485496557286599,
+      "valid": 184,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.6895195313902112,
+          "credits": 82797.36168384895
+        },
+        "electricity-winter": {
+          "loss": 1.5884870868633922,
+          "credits": 81698.96578947356
+        },
+        "electricity-august": {
+          "loss": 1.5744668971870945,
+          "credits": 87266.67750000095
+        },
+        "cycle-hire-may": {
+          "loss": 1.6757020441931125,
+          "credits": 64153.86875000015
+        }
+      },
+      "case_weighted_loss": 1.625780986327799
+    },
+    {
+      "model": "qwen3-4b-q8",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 0.710489649566642,
+      "credits": 784.478770121173,
+      "g_cost": 0.42200644072288834,
+      "objective": 0.7105103434828121,
+      "valid": 1227,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.6022978831177765,
+          "credits": 894.3505154639203
+        },
+        "electricity-winter": {
+          "loss": 0.5408824142386658,
+          "credits": 2511.2421052631516
+        },
+        "electricity-august": {
+          "loss": 0.598853096818462,
+          "credits": 1301.2800000000116
+        },
+        "cycle-hire-may": {
+          "loss": 0.8403015010749982,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 0.6130567998821783
+    },
+    {
+      "model": "qwen36-27b-q4",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 2.008957303001644,
+      "credits": 6256.495365044869,
+      "g_cost": 1.720618441534785,
+      "objective": 2.0091223442947093,
+      "valid": 14,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.8186337130561088,
+          "credits": 10258.837628866013
+        },
+        "electricity-winter": {
+          "loss": 1.765488668946934,
+          "credits": 4715.50789473683
+        },
+        "electricity-august": {
+          "loss": 1.8325613232720288,
+          "credits": 5344.889166666713
+        },
+        "cycle-hire-may": {
+          "loss": 2.212353370911638,
+          "credits": 5739.912500000015
+        }
+      },
+      "case_weighted_loss": 1.8563908472422022
+    },
+    {
+      "model": "qwen36-35b-a3b-q4",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 2.0132580430690825,
+      "credits": 7059.350343906324,
+      "g_cost": 1.7249403602679325,
+      "objective": 2.013444263027858,
+      "valid": 12,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.8362222026599342,
+          "credits": 10928.225945017206
+        },
+        "electricity-winter": {
+          "loss": 1.7613231706760375,
+          "credits": 8213.064035087698
+        },
+        "electricity-august": {
+          "loss": 1.8173155138914936,
+          "credits": 9831.605833333415
+        },
+        "cycle-hire-may": {
+          "loss": 2.2215624570623826,
+          "credits": 4461.068750000011
+        }
+      },
+      "case_weighted_loss": 1.8587892282165872
+    },
+    {
+      "model": "cost_aware_oracle",
+      "coefficient": 0.003,
+      "cases": 1251,
+      "loss": 0.2880319874596274,
+      "credits": 17889.67981382238,
+      "g_cost": 0
+    },
+    {
+      "model": "fixed_chronos2",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 0.30501922363328965,
+      "credits": 108782.8652559232,
+      "g_cost": 0.02531972915648512,
+      "objective": 0.3145845706300998,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.049269549761478834,
+          "credits": 108919.40206185593
+        },
+        "electricity-winter": {
+          "loss": 0.06891027890073805,
+          "credits": 108713.78947368436
+        },
+        "electricity-august": {
+          "loss": 0.045788360563698303,
+          "credits": 108766.00000000114
+        },
+        "cycle-hire-may": {
+          "loss": 0.5553823841912818,
+          "credits": 108766.00000000055
+        }
+      },
+      "case_weighted_loss": 0.11768470436726591
+    },
+    {
+      "model": "fixed_empirical",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 0.316519557912576,
+      "credits": 0.0,
+      "g_cost": 0.02725471643896142,
+      "objective": 0.316519557912576,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05270977308745529,
+          "credits": 0.0
+        },
+        "electricity-winter": {
+          "loss": 0.07682649958293909,
+          "credits": 0.0
+        },
+        "electricity-august": {
+          "loss": 0.04651698412488097,
+          "credits": 0.0
+        },
+        "cycle-hire-may": {
+          "loss": 0.5743546968934014,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 0.12363238482182799
+    },
+    {
+      "model": "fixed_router",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 0.30848800419614036,
+      "credits": 51726.516657622764,
+      "g_cost": 0.023771508453284212,
+      "objective": 0.31303634992689877,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05031344970806817,
+          "credits": 50297.75257731959
+        },
+        "electricity-winter": {
+          "loss": 0.06734061629992322,
+          "credits": 52449.3473684208
+        },
+        "electricity-august": {
+          "loss": 0.044123309929560484,
+          "credits": 51903.000000000364
+        },
+        "cycle-hire-may": {
+          "loss": 0.5630502164131045,
+          "credits": 51903.00000000006
+        }
+      },
+      "case_weighted_loss": 0.11814218560613649
+    },
+    {
+      "model": "gemma4-12b-qat-q4",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 0.581718937347199,
+      "credits": 54692.41012765991,
+      "g_cost": 0.29726323451625736,
+      "objective": 0.5865280759898718,
+      "valid": 1072,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.41464043818060164,
+          "credits": 46398.17611683864
+        },
+        "electricity-winter": {
+          "loss": 0.26347402872300574,
+          "credits": 37182.64298245603
+        },
+        "electricity-august": {
+          "loss": 0.2600801732976183,
+          "credits": 36235.30416666699
+        },
+        "cycle-hire-may": {
+          "loss": 0.850706327960669,
+          "credits": 69446.11250000012
+        }
+      },
+      "case_weighted_loss": 0.38488002469109095
+    },
+    {
+      "model": "gemma4-e2b-qat-q4",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 0.7195410278907746,
+      "credits": 75142.46811753859,
+      "g_cost": 0.436883511753277,
+      "objective": 0.7261483532268929,
+      "valid": 900,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.6511836797882788,
+          "credits": 68693.61254295538
+        },
+        "electricity-winter": {
+          "loss": 0.5697451140616051,
+          "credits": 69575.24824561384
+        },
+        "electricity-august": {
+          "loss": 0.5780490871592989,
+          "credits": 66650.54166666728
+        },
+        "cycle-hire-may": {
+          "loss": 0.8394227621118364,
+          "credits": 81978.46875000015
+        }
+      },
+      "case_weighted_loss": 0.6245557646628973
+    },
+    {
+      "model": "gemma4-e4b-qat-q4",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 0.7827724535978914,
+      "credits": 22619.787469818042,
+      "g_cost": 0.4954965845201952,
+      "objective": 0.7847614259938095,
+      "valid": 947,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.5759089292818972,
+          "credits": 29744.557560137524
+        },
+        "electricity-winter": {
+          "loss": 0.49195844715988146,
+          "credits": 27438.25350877185
+        },
+        "electricity-august": {
+          "loss": 0.5313932168345032,
+          "credits": 29134.070000000294
+        },
+        "cycle-hire-may": {
+          "loss": 1.032458042770373,
+          "credits": 16467.28125000005
+        }
+      },
+      "case_weighted_loss": 0.6013285902590938
+    },
+    {
+      "model": "gpt-5-nano-2025-08-07",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 0.5035906690493356,
+      "credits": 21008.187012042417,
+      "g_cost": 0.21617309091146067,
+      "objective": 0.5054379323850761,
+      "valid": 1200,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.22450286781934084,
+          "credits": 31212.232817869488
+        },
+        "electricity-winter": {
+          "loss": 0.24744811414254028,
+          "credits": 26200.41842105258
+        },
+        "electricity-august": {
+          "loss": 0.2699875600062501,
+          "credits": 24264.033333333555
+        },
+        "cycle-hire-may": {
+          "loss": 0.7598684907759709,
+          "credits": 14790.812500000038
+        }
+      },
+      "case_weighted_loss": 0.31331234686339365
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 0.9941015189973534,
+      "credits": 7278.9464569014535,
+      "g_cost": 0.7054767199464819,
+      "objective": 0.9947415614200977,
+      "valid": 750,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.8671094589719017,
+          "credits": 5850.2774914089305
+        },
+        "electricity-winter": {
+          "loss": 0.7115199144558003,
+          "credits": 8194.71666666663
+        },
+        "electricity-august": {
+          "loss": 0.7384387847395669,
+          "credits": 8192.12833333342
+        },
+        "cycle-hire-may": {
+          "loss": 1.2158469852723042,
+          "credits": 7145.518750000017
+        }
+      },
+      "case_weighted_loss": 0.8350137663482466
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 0.4710837905990625,
+      "credits": 33577.32556761291,
+      "g_cost": 0.1847714248625353,
+      "objective": 0.47403626633615104,
+      "valid": 1172,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.17592482702994144,
+          "credits": 33798.16323024056
+        },
+        "electricity-winter": {
+          "loss": 0.16804117033096916,
+          "credits": 37486.52017543848
+        },
+        "electricity-august": {
+          "loss": 0.17337464458169105,
+          "credits": 38322.307500000294
+        },
+        "cycle-hire-may": {
+          "loss": 0.7697207005506002,
+          "credits": 30618.987500000072
+        }
+      },
+      "case_weighted_loss": 0.2489783924817478
+    },
+    {
+      "model": "gpt-6-astra",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 0.30623728744870954,
+      "credits": 112429.1105194574,
+      "g_cost": 0.026858409652657487,
+      "objective": 0.31612325112627293,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.04877599511401555,
+          "credits": 112505.32903780142
+        },
+        "electricity-winter": {
+          "loss": 0.06652835961954794,
+          "credits": 112969.4815789476
+        },
+        "electricity-august": {
+          "loss": 0.04443440562397269,
+          "credits": 112310.14000000137
+        },
+        "cycle-hire-may": {
+          "loss": 0.5592283214449133,
+          "credits": 112263.23750000057
+        }
+      },
+      "case_weighted_loss": 0.11698786404216044
+    },
+    {
+      "model": "qwen3-0.6b-q8",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 1.6675063112630517,
+      "credits": 0.0,
+      "g_cost": 1.3782414697894352,
+      "objective": 1.6675063112630517,
+      "valid": 542,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.2401012093823511,
+          "credits": 0.0
+        },
+        "electricity-winter": {
+          "loss": 1.2011510335986182,
+          "credits": 0.0
+        },
+        "electricity-august": {
+          "loss": 1.229741597439069,
+          "credits": 0.0
+        },
+        "cycle-hire-may": {
+          "loss": 2.1113480090527896,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 1.3318826191117863
+    },
+    {
+      "model": "qwen3-1.7b-q8",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 1.646596608003323,
+      "credits": 74037.43520388653,
+      "g_cost": 1.363841925614164,
+      "objective": 1.6531067670877793,
+      "valid": 184,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.6895195313902112,
+          "credits": 82797.36168384895
+        },
+        "electricity-winter": {
+          "loss": 1.5884870868633922,
+          "credits": 81698.96578947356
+        },
+        "electricity-august": {
+          "loss": 1.5744668971870945,
+          "credits": 87266.67750000095
+        },
+        "cycle-hire-may": {
+          "loss": 1.6757020441931125,
+          "credits": 64153.86875000015
+        }
+      },
+      "case_weighted_loss": 1.625780986327799
+    },
+    {
+      "model": "qwen3-4b-q8",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 0.710489649566642,
+      "credits": 784.478770121173,
+      "g_cost": 0.4212937878135941,
+      "objective": 0.710558629287209,
+      "valid": 1227,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.6022978831177765,
+          "credits": 894.3505154639203
+        },
+        "electricity-winter": {
+          "loss": 0.5408824142386658,
+          "credits": 2511.2421052631516
+        },
+        "electricity-august": {
+          "loss": 0.598853096818462,
+          "credits": 1301.2800000000116
+        },
+        "cycle-hire-may": {
+          "loss": 0.8403015010749982,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 0.6130567998821783
+    },
+    {
+      "model": "qwen36-27b-q4",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 2.008957303001644,
+      "credits": 6256.495365044869,
+      "g_cost": 1.7202425991715804,
+      "objective": 2.0095074406451947,
+      "valid": 14,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.8186337130561088,
+          "credits": 10258.837628866013
+        },
+        "electricity-winter": {
+          "loss": 1.765488668946934,
+          "credits": 4715.50789473683
+        },
+        "electricity-august": {
+          "loss": 1.8325613232720288,
+          "credits": 5344.889166666713
+        },
+        "cycle-hire-may": {
+          "loss": 2.212353370911638,
+          "credits": 5739.912500000015
+        }
+      },
+      "case_weighted_loss": 1.8563908472422022
+    },
+    {
+      "model": "qwen36-35b-a3b-q4",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 2.0132580430690825,
+      "credits": 7059.350343906324,
+      "g_cost": 1.7246139347913856,
+      "objective": 2.0138787762650012,
+      "valid": 12,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.8362222026599342,
+          "credits": 10928.225945017206
+        },
+        "electricity-winter": {
+          "loss": 1.7613231706760375,
+          "credits": 8213.064035087698
+        },
+        "electricity-august": {
+          "loss": 1.8173155138914936,
+          "credits": 9831.605833333415
+        },
+        "cycle-hire-may": {
+          "loss": 2.2215624570623826,
+          "credits": 4461.068750000011
+        }
+      },
+      "case_weighted_loss": 1.8587892282165872
+    },
+    {
+      "model": "cost_aware_oracle",
+      "coefficient": 0.01,
+      "cases": 1251,
+      "loss": 0.2885543825181286,
+      "credits": 8079.765517159442,
+      "g_cost": 0
+    },
+    {
+      "model": "fixed_chronos2",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 0.30501922363328965,
+      "credits": 108782.8652559232,
+      "g_cost": 0.04361591419202933,
+      "objective": 0.33371526462372014,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.049269549761478834,
+          "credits": 108919.40206185593
+        },
+        "electricity-winter": {
+          "loss": 0.06891027890073805,
+          "credits": 108713.78947368436
+        },
+        "electricity-august": {
+          "loss": 0.045788360563698303,
+          "credits": 108766.00000000114
+        },
+        "cycle-hire-may": {
+          "loss": 0.5553823841912818,
+          "credits": 108766.00000000055
+        }
+      },
+      "case_weighted_loss": 0.11768470436726591
+    },
+    {
+      "model": "fixed_empirical",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 0.316519557912576,
+      "credits": 0.0,
+      "g_cost": 0.02642020748088551,
+      "objective": 0.316519557912576,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05270977308745529,
+          "credits": 0.0
+        },
+        "electricity-winter": {
+          "loss": 0.07682649958293909,
+          "credits": 0.0
+        },
+        "electricity-august": {
+          "loss": 0.04651698412488097,
+          "credits": 0.0
+        },
+        "cycle-hire-may": {
+          "loss": 0.5743546968934014,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 0.12363238482182799
+    },
+    {
+      "model": "fixed_router",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 0.30848800419614036,
+      "credits": 51726.516657622764,
+      "g_cost": 0.03203369095672509,
+      "objective": 0.32213304138841553,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05031344970806817,
+          "credits": 50297.75257731959
+        },
+        "electricity-winter": {
+          "loss": 0.06734061629992322,
+          "credits": 52449.3473684208
+        },
+        "electricity-august": {
+          "loss": 0.044123309929560484,
+          "credits": 51903.000000000364
+        },
+        "cycle-hire-may": {
+          "loss": 0.5630502164131045,
+          "credits": 51903.00000000006
+        }
+      },
+      "case_weighted_loss": 0.11814218560613649
+    },
+    {
+      "model": "gemma4-12b-qat-q4",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 0.581718937347199,
+      "credits": 54692.41012765991,
+      "g_cost": 0.30604700284352654,
+      "objective": 0.5961463532752173,
+      "valid": 1072,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.41464043818060164,
+          "credits": 46398.17611683864
+        },
+        "electricity-winter": {
+          "loss": 0.26347402872300574,
+          "credits": 37182.64298245603
+        },
+        "electricity-august": {
+          "loss": 0.2600801732976183,
+          "credits": 36235.30416666699
+        },
+        "cycle-hire-may": {
+          "loss": 0.850706327960669,
+          "credits": 69446.11250000012
+        }
+      },
+      "case_weighted_loss": 0.38488002469109095
+    },
+    {
+      "model": "gemma4-e2b-qat-q4",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 0.7195410278907746,
+      "credits": 75142.46811753859,
+      "g_cost": 0.4492636534674383,
+      "objective": 0.7393630038991293,
+      "valid": 900,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.6511836797882788,
+          "credits": 68693.61254295538
+        },
+        "electricity-winter": {
+          "loss": 0.5697451140616051,
+          "credits": 69575.24824561384
+        },
+        "electricity-august": {
+          "loss": 0.5780490871592989,
+          "credits": 66650.54166666728
+        },
+        "cycle-hire-may": {
+          "loss": 0.8394227621118364,
+          "credits": 81978.46875000015
+        }
+      },
+      "case_weighted_loss": 0.6245557646628973
+    },
+    {
+      "model": "gemma4-e4b-qat-q4",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 0.7827724535978914,
+      "credits": 22619.787469818042,
+      "g_cost": 0.4986400203539547,
+      "objective": 0.7887393707856456,
+      "valid": 947,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.5759089292818972,
+          "credits": 29744.557560137524
+        },
+        "electricity-winter": {
+          "loss": 0.49195844715988146,
+          "credits": 27438.25350877185
+        },
+        "electricity-august": {
+          "loss": 0.5313932168345032,
+          "credits": 29134.070000000294
+        },
+        "cycle-hire-may": {
+          "loss": 1.032458042770373,
+          "credits": 16467.28125000005
+        }
+      },
+      "case_weighted_loss": 0.6013285902590938
+    },
+    {
+      "model": "gpt-5-nano-2025-08-07",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 0.5035906690493356,
+      "credits": 21008.187012042417,
+      "g_cost": 0.21903310862486608,
+      "objective": 0.5091324590565571,
+      "valid": 1200,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.22450286781934084,
+          "credits": 31212.232817869488
+        },
+        "electricity-winter": {
+          "loss": 0.24744811414254028,
+          "credits": 26200.41842105258
+        },
+        "electricity-august": {
+          "loss": 0.2699875600062501,
+          "credits": 24264.033333333555
+        },
+        "cycle-hire-may": {
+          "loss": 0.7598684907759709,
+          "credits": 14790.812500000038
+        }
+      },
+      "case_weighted_loss": 0.31331234686339365
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 0.9941015189973534,
+      "credits": 7278.9464569014535,
+      "g_cost": 0.7059222958338957,
+      "objective": 0.9960216462655862,
+      "valid": 750,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.8671094589719017,
+          "credits": 5850.2774914089305
+        },
+        "electricity-winter": {
+          "loss": 0.7115199144558003,
+          "credits": 8194.71666666663
+        },
+        "electricity-august": {
+          "loss": 0.7384387847395669,
+          "credits": 8192.12833333342
+        },
+        "cycle-hire-may": {
+          "loss": 1.2158469852723042,
+          "credits": 7145.518750000017
+        }
+      },
+      "case_weighted_loss": 0.8350137663482466
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 0.4710837905990625,
+      "credits": 33577.32556761291,
+      "g_cost": 0.1898418673786364,
+      "objective": 0.47994121781032806,
+      "valid": 1172,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.17592482702994144,
+          "credits": 33798.16323024056
+        },
+        "electricity-winter": {
+          "loss": 0.16804117033096916,
+          "credits": 37486.52017543848
+        },
+        "electricity-august": {
+          "loss": 0.17337464458169105,
+          "credits": 38322.307500000294
+        },
+        "cycle-hire-may": {
+          "loss": 0.7697207005506002,
+          "credits": 30618.987500000072
+        }
+      },
+      "case_weighted_loss": 0.2489783924817478
+    },
+    {
+      "model": "gpt-6-astra",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 0.30623728744870954,
+      "credits": 112429.1105194574,
+      "g_cost": 0.045795828049708276,
+      "objective": 0.3358951784813997,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.04877599511401555,
+          "credits": 112505.32903780142
+        },
+        "electricity-winter": {
+          "loss": 0.06652835961954794,
+          "credits": 112969.4815789476
+        },
+        "electricity-august": {
+          "loss": 0.04443440562397269,
+          "credits": 112310.14000000137
+        },
+        "cycle-hire-may": {
+          "loss": 0.5592283214449133,
+          "credits": 112263.23750000057
+        }
+      },
+      "case_weighted_loss": 0.11698786404216044
+    },
+    {
+      "model": "qwen3-0.6b-q8",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 1.6675063112630517,
+      "credits": 0.0,
+      "g_cost": 1.3774069608313595,
+      "objective": 1.6675063112630517,
+      "valid": 542,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.2401012093823511,
+          "credits": 0.0
+        },
+        "electricity-winter": {
+          "loss": 1.2011510335986182,
+          "credits": 0.0
+        },
+        "electricity-august": {
+          "loss": 1.229741597439069,
+          "credits": 0.0
+        },
+        "cycle-hire-may": {
+          "loss": 2.1113480090527896,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 1.3318826191117863
+    },
+    {
+      "model": "qwen3-1.7b-q8",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 1.646596608003323,
+      "credits": 74037.43520388653,
+      "g_cost": 1.3760277348250005,
+      "objective": 1.6661270852566916,
+      "valid": 184,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.6895195313902112,
+          "credits": 82797.36168384895
+        },
+        "electricity-winter": {
+          "loss": 1.5884870868633922,
+          "credits": 81698.96578947356
+        },
+        "electricity-august": {
+          "loss": 1.5744668971870945,
+          "credits": 87266.67750000095
+        },
+        "cycle-hire-may": {
+          "loss": 1.6757020441931125,
+          "credits": 64153.86875000015
+        }
+      },
+      "case_weighted_loss": 1.625780986327799
+    },
+    {
+      "model": "qwen3-4b-q8",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 0.710489649566642,
+      "credits": 784.478770121173,
+      "g_cost": 0.42059723829665246,
+      "objective": 0.7106965887283432,
+      "valid": 1227,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.6022978831177765,
+          "credits": 894.3505154639203
+        },
+        "electricity-winter": {
+          "loss": 0.5408824142386658,
+          "credits": 2511.2421052631516
+        },
+        "electricity-august": {
+          "loss": 0.598853096818462,
+          "credits": 1301.2800000000116
+        },
+        "cycle-hire-may": {
+          "loss": 0.8403015010749982,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 0.6130567998821783
+    },
+    {
+      "model": "qwen36-27b-q4",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 2.008957303001644,
+      "credits": 6256.495365044869,
+      "g_cost": 1.7205083655006062,
+      "objective": 2.010607715932296,
+      "valid": 14,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.8186337130561088,
+          "credits": 10258.837628866013
+        },
+        "electricity-winter": {
+          "loss": 1.765488668946934,
+          "credits": 4715.50789473683
+        },
+        "electricity-august": {
+          "loss": 1.8325613232720288,
+          "credits": 5344.889166666713
+        },
+        "cycle-hire-may": {
+          "loss": 2.212353370911638,
+          "credits": 5739.912500000015
+        }
+      },
+      "case_weighted_loss": 1.8563908472422022
+    },
+    {
+      "model": "qwen36-35b-a3b-q4",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 2.0132580430690825,
+      "credits": 7059.350343906324,
+      "g_cost": 1.7250208922251475,
+      "objective": 2.015120242656839,
+      "valid": 12,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.8362222026599342,
+          "credits": 10928.225945017206
+        },
+        "electricity-winter": {
+          "loss": 1.7613231706760375,
+          "credits": 8213.064035087698
+        },
+        "electricity-august": {
+          "loss": 1.8173155138914936,
+          "credits": 9831.605833333415
+        },
+        "cycle-hire-may": {
+          "loss": 2.2215624570623826,
+          "credits": 4461.068750000011
+        }
+      },
+      "case_weighted_loss": 1.8587892282165872
+    },
+    {
+      "model": "cost_aware_oracle",
+      "coefficient": 0.03,
+      "cases": 1251,
+      "loss": 0.28937215526139515,
+      "credits": 2756.6999312337684,
+      "g_cost": 0
+    },
+    {
+      "model": "fixed_chronos2",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 0.30501922363328965,
+      "credits": 108782.8652559232,
+      "g_cost": 0.10991386641551466,
+      "objective": 0.40067269360139124,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.049269549761478834,
+          "credits": 108919.40206185593
+        },
+        "electricity-winter": {
+          "loss": 0.06891027890073805,
+          "credits": 108713.78947368436
+        },
+        "electricity-august": {
+          "loss": 0.045788360563698303,
+          "credits": 108766.00000000114
+        },
+        "cycle-hire-may": {
+          "loss": 0.5553823841912818,
+          "credits": 108766.00000000055
+        }
+      },
+      "case_weighted_loss": 0.11768470436726591
+    },
+    {
+      "model": "fixed_empirical",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 0.316519557912576,
+      "credits": 0.0,
+      "g_cost": 0.025760730726700393,
+      "objective": 0.316519557912576,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05270977308745529,
+          "credits": 0.0
+        },
+        "electricity-winter": {
+          "loss": 0.07682649958293909,
+          "credits": 0.0
+        },
+        "electricity-august": {
+          "loss": 0.04651698412488097,
+          "credits": 0.0
+        },
+        "cycle-hire-may": {
+          "loss": 0.5743546968934014,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 0.12363238482182799
+    },
+    {
+      "model": "fixed_router",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 0.30848800419614036,
+      "credits": 51726.516657622764,
+      "g_cost": 0.06321263431784878,
+      "objective": 0.35397146150372416,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.05031344970806817,
+          "credits": 50297.75257731959
+        },
+        "electricity-winter": {
+          "loss": 0.06734061629992322,
+          "credits": 52449.3473684208
+        },
+        "electricity-august": {
+          "loss": 0.044123309929560484,
+          "credits": 51903.000000000364
+        },
+        "cycle-hire-may": {
+          "loss": 0.5630502164131045,
+          "credits": 51903.00000000006
+        }
+      },
+      "case_weighted_loss": 0.11814218560613649
+    },
+    {
+      "model": "gemma4-12b-qat-q4",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 0.581718937347199,
+      "credits": 54692.41012765991,
+      "g_cost": 0.33905149658805034,
+      "objective": 0.6298103237739263,
+      "valid": 1072,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.41464043818060164,
+          "credits": 46398.17611683864
+        },
+        "electricity-winter": {
+          "loss": 0.26347402872300574,
+          "credits": 37182.64298245603
+        },
+        "electricity-august": {
+          "loss": 0.2600801732976183,
+          "credits": 36235.30416666699
+        },
+        "cycle-hire-may": {
+          "loss": 0.850706327960669,
+          "credits": 69446.11250000012
+        }
+      },
+      "case_weighted_loss": 0.38488002469109095
+    },
+    {
+      "model": "gemma4-e2b-qat-q4",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 0.7195410278907746,
+      "credits": 75142.46811753859,
+      "g_cost": 0.49485545406608056,
+      "objective": 0.7856142812519572,
+      "valid": 900,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.6511836797882788,
+          "credits": 68693.61254295538
+        },
+        "electricity-winter": {
+          "loss": 0.5697451140616051,
+          "credits": 69575.24824561384
+        },
+        "electricity-august": {
+          "loss": 0.5780490871592989,
+          "credits": 66650.54166666728
+        },
+        "cycle-hire-may": {
+          "loss": 0.8394227621118364,
+          "credits": 81978.46875000015
+        }
+      },
+      "case_weighted_loss": 0.6245557646628973
+    },
+    {
+      "model": "gemma4-e4b-qat-q4",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 0.7827724535978914,
+      "credits": 22619.787469818042,
+      "g_cost": 0.5119033503711969,
+      "objective": 0.8026621775570723,
+      "valid": 947,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.5759089292818972,
+          "credits": 29744.557560137524
+        },
+        "electricity-winter": {
+          "loss": 0.49195844715988146,
+          "credits": 27438.25350877185
+        },
+        "electricity-august": {
+          "loss": 0.5313932168345032,
+          "credits": 29134.070000000294
+        },
+        "cycle-hire-may": {
+          "loss": 1.032458042770373,
+          "credits": 16467.28125000005
+        }
+      },
+      "case_weighted_loss": 0.6013285902590938
+    },
+    {
+      "model": "gpt-5-nano-2025-08-07",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 0.5035906690493356,
+      "credits": 21008.187012042417,
+      "g_cost": 0.23130447522086428,
+      "objective": 0.5220633024067406,
+      "valid": 1200,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.22450286781934084,
+          "credits": 31212.232817869488
+        },
+        "electricity-winter": {
+          "loss": 0.24744811414254028,
+          "credits": 26200.41842105258
+        },
+        "electricity-august": {
+          "loss": 0.2699875600062501,
+          "credits": 24264.033333333555
+        },
+        "cycle-hire-may": {
+          "loss": 0.7598684907759709,
+          "credits": 14790.812500000038
+        }
+      },
+      "case_weighted_loss": 0.31331234686339365
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 0.9941015189973534,
+      "credits": 7278.9464569014535,
+      "g_cost": 0.7097431160389197,
+      "objective": 1.0005019432247961,
+      "valid": 750,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.8671094589719017,
+          "credits": 5850.2774914089305
+        },
+        "electricity-winter": {
+          "loss": 0.7115199144558003,
+          "credits": 8194.71666666663
+        },
+        "electricity-august": {
+          "loss": 0.7384387847395669,
+          "credits": 8192.12833333342
+        },
+        "cycle-hire-may": {
+          "loss": 1.2158469852723042,
+          "credits": 7145.518750000017
+        }
+      },
+      "case_weighted_loss": 0.8350137663482466
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 0.4710837905990625,
+      "credits": 33577.32556761291,
+      "g_cost": 0.2098497207840712,
+      "objective": 0.5006085479699477,
+      "valid": 1172,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.17592482702994144,
+          "credits": 33798.16323024056
+        },
+        "electricity-winter": {
+          "loss": 0.16804117033096916,
+          "credits": 37486.52017543848
+        },
+        "electricity-august": {
+          "loss": 0.17337464458169105,
+          "credits": 38322.307500000294
+        },
+        "cycle-hire-may": {
+          "loss": 0.7697207005506002,
+          "credits": 30618.987500000072
+        }
+      },
+      "case_weighted_loss": 0.2489783924817478
+    },
+    {
+      "model": "gpt-6-astra",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 0.30623728744870954,
+      "credits": 112429.1105194574,
+      "g_cost": 0.11433809703846673,
+      "objective": 0.40509692422434346,
+      "valid": 1251,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.04877599511401555,
+          "credits": 112505.32903780142
+        },
+        "electricity-winter": {
+          "loss": 0.06652835961954794,
+          "credits": 112969.4815789476
+        },
+        "electricity-august": {
+          "loss": 0.04443440562397269,
+          "credits": 112310.14000000137
+        },
+        "cycle-hire-may": {
+          "loss": 0.5592283214449133,
+          "credits": 112263.23750000057
+        }
+      },
+      "case_weighted_loss": 0.11698786404216044
+    },
+    {
+      "model": "qwen3-0.6b-q8",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 1.6675063112630517,
+      "credits": 0.0,
+      "g_cost": 1.3767474840771745,
+      "objective": 1.6675063112630517,
+      "valid": 542,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.2401012093823511,
+          "credits": 0.0
+        },
+        "electricity-winter": {
+          "loss": 1.2011510335986182,
+          "credits": 0.0
+        },
+        "electricity-august": {
+          "loss": 1.229741597439069,
+          "credits": 0.0
+        },
+        "cycle-hire-may": {
+          "loss": 2.1113480090527896,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 1.3318826191117863
+    },
+    {
+      "model": "qwen3-1.7b-q8",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 1.646596608003323,
+      "credits": 74037.43520388653,
+      "g_cost": 1.4209393716620073,
+      "objective": 1.711698198847885,
+      "valid": 184,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.6895195313902112,
+          "credits": 82797.36168384895
+        },
+        "electricity-winter": {
+          "loss": 1.5884870868633922,
+          "credits": 81698.96578947356
+        },
+        "electricity-august": {
+          "loss": 1.5744668971870945,
+          "credits": 87266.67750000095
+        },
+        "cycle-hire-may": {
+          "loss": 1.6757020441931125,
+          "credits": 64153.86875000015
+        }
+      },
+      "case_weighted_loss": 1.625780986327799
+    },
+    {
+      "model": "qwen3-4b-q8",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 0.710489649566642,
+      "credits": 784.478770121173,
+      "g_cost": 0.4204206195864368,
+      "objective": 0.7111794467723127,
+      "valid": 1227,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 0.6022978831177765,
+          "credits": 894.3505154639203
+        },
+        "electricity-winter": {
+          "loss": 0.5408824142386658,
+          "credits": 2511.2421052631516
+        },
+        "electricity-august": {
+          "loss": 0.598853096818462,
+          "credits": 1301.2800000000116
+        },
+        "cycle-hire-may": {
+          "loss": 0.8403015010749982,
+          "credits": 0.0
+        }
+      },
+      "case_weighted_loss": 0.6130567998821783
+    },
+    {
+      "model": "qwen36-27b-q4",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 2.008957303001644,
+      "credits": 6256.495365044869,
+      "g_cost": 1.7236998522512752,
+      "objective": 2.014458679437151,
+      "valid": 14,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.8186337130561088,
+          "credits": 10258.837628866013
+        },
+        "electricity-winter": {
+          "loss": 1.765488668946934,
+          "credits": 4715.50789473683
+        },
+        "electricity-august": {
+          "loss": 1.8325613232720288,
+          "credits": 5344.889166666713
+        },
+        "cycle-hire-may": {
+          "loss": 2.212353370911638,
+          "credits": 5739.912500000015
+        }
+      },
+      "case_weighted_loss": 1.8563908472422022
+    },
+    {
+      "model": "qwen36-35b-a3b-q4",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 2.0132580430690825,
+      "credits": 7059.350343906324,
+      "g_cost": 1.7287065478423942,
+      "objective": 2.0194653750282705,
+      "valid": 12,
+      "cohorts": {
+        "electricity-july": {
+          "loss": 1.8362222026599342,
+          "credits": 10928.225945017206
+        },
+        "electricity-winter": {
+          "loss": 1.7613231706760375,
+          "credits": 8213.064035087698
+        },
+        "electricity-august": {
+          "loss": 1.8173155138914936,
+          "credits": 9831.605833333415
+        },
+        "cycle-hire-may": {
+          "loss": 2.2215624570623826,
+          "credits": 4461.068750000011
+        }
+      },
+      "case_weighted_loss": 1.8587892282165872
+    },
+    {
+      "model": "cost_aware_oracle",
+      "coefficient": 0.1,
+      "cases": 1251,
+      "loss": 0.29018136056729055,
+      "credits": 656.7296866521914,
+      "g_cost": 0
+    }
+  ],
+  "main_cost_weight": 0.01,
+  "perfect_forecast_loss": 0.2675843320384469
+}

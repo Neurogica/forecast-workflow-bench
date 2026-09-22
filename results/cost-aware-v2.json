@@ -1,0 +1,991 @@
+{
+  "version": "cost-aware-gap-v2",
+  "budget": 113726,
+  "main_weight": 0.01,
+  "weights": [
+    0,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1
+  ],
+  "summaries": [
+    {
+      "cost_weight": 0.0,
+      "model": "cost_aware_oracle",
+      "cases": 377,
+      "loss": 0.032060433723864364,
+      "credits": 23400.20189003436,
+      "objective": 0.032060433723864364,
+      "g_cost": 0.0
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "fixed_chronos2",
+      "cases": 377,
+      "loss": 0.04926954976147865,
+      "credits": 108919.40206185567,
+      "objective": 0.04926954976147865,
+      "g_cost": 0.01720911603761428
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "fixed_dev_route",
+      "cases": 377,
+      "loss": 0.05031344970806794,
+      "credits": 50297.75257731959,
+      "objective": 0.05031344970806794,
+      "g_cost": 0.018253015984203574
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "fixed_hour_of_day_empirical",
+      "cases": 377,
+      "loss": 0.052709773087455024,
+      "credits": 0.0,
+      "objective": 0.052709773087455024,
+      "g_cost": 0.02064933936359066
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "free_menu_oracle",
+      "cases": 377,
+      "loss": 0.03640577943970893,
+      "credits": 0.0,
+      "objective": 0.03640577943970893,
+      "g_cost": 0.004345345715844565
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "gemma4-12b-qat-q4",
+      "cases": 377,
+      "loss": 0.4146404381806007,
+      "credits": 46398.176116838484,
+      "objective": 0.4146404381806007,
+      "g_cost": 0.38258000445673634
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "gemma4-e2b-qat-q4",
+      "cases": 377,
+      "loss": 0.6511836797882765,
+      "credits": 68693.61254295534,
+      "objective": 0.6511836797882765,
+      "g_cost": 0.619123246064412
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "gemma4-e4b-qat-q4",
+      "cases": 377,
+      "loss": 0.5759089292818954,
+      "credits": 29744.55756013746,
+      "objective": 0.5759089292818954,
+      "g_cost": 0.543848495558031
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "gpt-5-nano-2025-08-07",
+      "cases": 377,
+      "loss": 0.22450286781934017,
+      "credits": 31212.23281786941,
+      "objective": 0.22450286781934017,
+      "g_cost": 0.1924424340954758
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "cases": 377,
+      "loss": 0.867109458971899,
+      "credits": 5850.277491408936,
+      "objective": 0.867109458971899,
+      "g_cost": 0.8350490252480345
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "gpt-5.4-nano-2026-03-17",
+      "cases": 377,
+      "loss": 0.1759248270299409,
+      "credits": 33798.16323024055,
+      "objective": 0.1759248270299409,
+      "g_cost": 0.14386439330607653
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "gpt-6-astra",
+      "cases": 377,
+      "loss": 0.04877599511401538,
+      "credits": 112505.3290378007,
+      "objective": 0.04877599511401538,
+      "g_cost": 0.016715561390151012
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "loss_menu_oracle",
+      "cases": 377,
+      "loss": 0.032060433723864364,
+      "credits": 23400.20189003436,
+      "objective": 0.032060433723864364,
+      "g_cost": 0.0
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "qwen3-0.6b-q8",
+      "cases": 377,
+      "loss": 1.240101209382347,
+      "credits": 0.0,
+      "objective": 1.240101209382347,
+      "g_cost": 1.2080407756584823
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "qwen3-1.7b-q8",
+      "cases": 377,
+      "loss": 1.6895195313902063,
+      "credits": 82797.3616838488,
+      "objective": 1.6895195313902063,
+      "g_cost": 1.657459097666342
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "qwen3-4b-q8",
+      "cases": 377,
+      "loss": 0.602297883117775,
+      "credits": 894.3505154639175,
+      "objective": 0.602297883117775,
+      "g_cost": 0.5702374493939106
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "qwen36-27b-q4",
+      "cases": 377,
+      "loss": 1.8186337130561039,
+      "credits": 10258.83762886598,
+      "objective": 1.8186337130561039,
+      "g_cost": 1.7865732793322393
+    },
+    {
+      "cost_weight": 0.0,
+      "model": "qwen36-35b-a3b-q4",
+      "cases": 377,
+      "loss": 1.8362222026599286,
+      "credits": 10928.225945017182,
+      "objective": 1.8362222026599286,
+      "g_cost": 1.8041617689360643
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "cost_aware_oracle",
+      "cases": 377,
+      "loss": 0.03206973691357928,
+      "credits": 19020.92525773196,
+      "objective": 0.03223698912730114,
+      "g_cost": 0.0
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "fixed_chronos2",
+      "cases": 377,
+      "loss": 0.04926954976147865,
+      "credits": 108919.40206185567,
+      "objective": 0.05022728503803682,
+      "g_cost": 0.017990295910735685
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "fixed_dev_route",
+      "cases": 377,
+      "loss": 0.05031344970806794,
+      "credits": 50297.75257731959,
+      "objective": 0.05075572106710035,
+      "g_cost": 0.018518731939799204
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "fixed_hour_of_day_empirical",
+      "cases": 377,
+      "loss": 0.052709773087455024,
+      "credits": 0.0,
+      "objective": 0.052709773087455024,
+      "g_cost": 0.020472783960153885
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "free_menu_oracle",
+      "cases": 377,
+      "loss": 0.03640577943970893,
+      "credits": 0.0,
+      "objective": 0.03640577943970893,
+      "g_cost": 0.004168790312407787
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "gemma4-12b-qat-q4",
+      "cases": 377,
+      "loss": 0.4146404381806007,
+      "credits": 46398.176116838484,
+      "objective": 0.41504842031412204,
+      "g_cost": 0.3828114311868208
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "gemma4-e2b-qat-q4",
+      "cases": 377,
+      "loss": 0.6511836797882765,
+      "credits": 68693.61254295534,
+      "objective": 0.6517877071218936,
+      "g_cost": 0.6195507179945926
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "gemma4-e4b-qat-q4",
+      "cases": 377,
+      "loss": 0.5759089292818954,
+      "credits": 29744.55756013746,
+      "objective": 0.5761704750810982,
+      "g_cost": 0.5439334859537971
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "gpt-5-nano-2025-08-07",
+      "cases": 377,
+      "loss": 0.22450286781934017,
+      "credits": 31212.23281786941,
+      "objective": 0.22477731898106107,
+      "g_cost": 0.1925403298537599
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "cases": 377,
+      "loss": 0.867109458971899,
+      "credits": 5850.277491408936,
+      "objective": 0.8671609008364807,
+      "g_cost": 0.8349239117091793
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "gpt-5.4-nano-2026-03-17",
+      "cases": 377,
+      "loss": 0.1759248270299409,
+      "credits": 33798.16323024055,
+      "objective": 0.1762220164433577,
+      "g_cost": 0.14398502731605656
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "gpt-6-astra",
+      "cases": 377,
+      "loss": 0.04877599511401538,
+      "credits": 112505.3290378007,
+      "objective": 0.04976526167608386,
+      "g_cost": 0.017528272548782725
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "loss_menu_oracle",
+      "cases": 377,
+      "loss": 0.032060433723864364,
+      "credits": 23400.20189003436,
+      "objective": 0.03226619319742392,
+      "g_cost": 2.9204070122781432e-05
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "qwen3-0.6b-q8",
+      "cases": 377,
+      "loss": 1.240101209382347,
+      "credits": 0.0,
+      "objective": 1.240101209382347,
+      "g_cost": 1.2078642202550454
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "qwen3-1.7b-q8",
+      "cases": 377,
+      "loss": 1.6895195313902063,
+      "credits": 82797.3616838488,
+      "objective": 1.6902475738930978,
+      "g_cost": 1.6580105847657967
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "qwen3-4b-q8",
+      "cases": 377,
+      "loss": 0.602297883117775,
+      "credits": 894.3505154639175,
+      "objective": 0.6023057471991237,
+      "g_cost": 0.5700687580718226
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "qwen36-27b-q4",
+      "cases": 377,
+      "loss": 1.8186337130561039,
+      "credits": 10258.83762886598,
+      "objective": 1.818723919672259,
+      "g_cost": 1.7864869305449578
+    },
+    {
+      "cost_weight": 0.001,
+      "model": "qwen36-35b-a3b-q4",
+      "cases": 377,
+      "loss": 1.8362222026599286,
+      "credits": 10928.225945017182,
+      "objective": 1.8363182952504096,
+      "g_cost": 1.804081306123108
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "cost_aware_oracle",
+      "cases": 377,
+      "loss": 0.032143679053991125,
+      "credits": 14620.789518900345,
+      "objective": 0.03252936366926557,
+      "g_cost": 0.0
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "fixed_chronos2",
+      "cases": 377,
+      "loss": 0.04926954976147865,
+      "credits": 108919.40206185567,
+      "objective": 0.052142755591153195,
+      "g_cost": 0.019613391921887616
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "fixed_dev_route",
+      "cases": 377,
+      "loss": 0.05031344970806794,
+      "credits": 50297.75257731959,
+      "objective": 0.051640263785165154,
+      "g_cost": 0.019110900115899592
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "fixed_hour_of_day_empirical",
+      "cases": 377,
+      "loss": 0.052709773087455024,
+      "credits": 0.0,
+      "objective": 0.052709773087455024,
+      "g_cost": 0.020180409418189455
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "free_menu_oracle",
+      "cases": 377,
+      "loss": 0.03640577943970893,
+      "credits": 0.0,
+      "objective": 0.03640577943970893,
+      "g_cost": 0.003876415770443358
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "gemma4-12b-qat-q4",
+      "cases": 377,
+      "loss": 0.4146404381806007,
+      "credits": 46398.176116838484,
+      "objective": 0.41586438458116454,
+      "g_cost": 0.38333502091189886
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "gemma4-e2b-qat-q4",
+      "cases": 377,
+      "loss": 0.6511836797882765,
+      "credits": 68693.61254295534,
+      "objective": 0.6529957617891282,
+      "g_cost": 0.6204663981198627
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "gemma4-e4b-qat-q4",
+      "cases": 377,
+      "loss": 0.5759089292818954,
+      "credits": 29744.55756013746,
+      "objective": 0.5766935666795039,
+      "g_cost": 0.5441642030102384
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "gpt-5-nano-2025-08-07",
+      "cases": 377,
+      "loss": 0.22450286781934017,
+      "credits": 31212.23281786941,
+      "objective": 0.22532622130450283,
+      "g_cost": 0.19279685763523727
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "cases": 377,
+      "loss": 0.867109458971899,
+      "credits": 5850.277491408936,
+      "objective": 0.8672637845656437,
+      "g_cost": 0.8347344208963782
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "gpt-5.4-nano-2026-03-17",
+      "cases": 377,
+      "loss": 0.1759248270299409,
+      "credits": 33798.16323024055,
+      "objective": 0.17681639527019136,
+      "g_cost": 0.14428703160092576
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "gpt-6-astra",
+      "cases": 377,
+      "loss": 0.04877599511401538,
+      "credits": 112505.3290378007,
+      "objective": 0.05174379480022085,
+      "g_cost": 0.019214431130955268
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "loss_menu_oracle",
+      "cases": 377,
+      "loss": 0.032060433723864364,
+      "credits": 23400.20189003436,
+      "objective": 0.03267771214454304,
+      "g_cost": 0.0001483484752774696
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "qwen3-0.6b-q8",
+      "cases": 377,
+      "loss": 1.240101209382347,
+      "credits": 0.0,
+      "objective": 1.240101209382347,
+      "g_cost": 1.207571845713081
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "qwen3-1.7b-q8",
+      "cases": 377,
+      "loss": 1.6895195313902063,
+      "credits": 82797.3616838488,
+      "objective": 1.6917036588988807,
+      "g_cost": 1.6591742952296153
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "qwen3-4b-q8",
+      "cases": 377,
+      "loss": 0.602297883117775,
+      "credits": 894.3505154639175,
+      "objective": 0.6023214753618211,
+      "g_cost": 0.5697921116925556
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "qwen36-27b-q4",
+      "cases": 377,
+      "loss": 1.8186337130561039,
+      "credits": 10258.83762886598,
+      "objective": 1.8189043329045695,
+      "g_cost": 1.7863749692353037
+    },
+    {
+      "cost_weight": 0.003,
+      "model": "qwen36-35b-a3b-q4",
+      "cases": 377,
+      "loss": 1.8362222026599286,
+      "credits": 10928.225945017182,
+      "objective": 1.836510480431371,
+      "g_cost": 1.8039811167621054
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "cost_aware_oracle",
+      "cases": 377,
+      "loss": 0.032540306489805756,
+      "credits": 6839.066151202749,
+      "objective": 0.03314166995560977,
+      "g_cost": 0.0
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "fixed_chronos2",
+      "cases": 377,
+      "loss": 0.04926954976147865,
+      "credits": 108919.40206185567,
+      "objective": 0.05884690252706046,
+      "g_cost": 0.025705232571450683
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "fixed_dev_route",
+      "cases": 377,
+      "loss": 0.05031344970806794,
+      "credits": 50297.75257731959,
+      "objective": 0.05473616329839202,
+      "g_cost": 0.02159449334278225
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "fixed_hour_of_day_empirical",
+      "cases": 377,
+      "loss": 0.052709773087455024,
+      "credits": 0.0,
+      "objective": 0.052709773087455024,
+      "g_cost": 0.019568103131845257
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "free_menu_oracle",
+      "cases": 377,
+      "loss": 0.03640577943970893,
+      "credits": 0.0,
+      "objective": 0.03640577943970893,
+      "g_cost": 0.0032641094840991625
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "gemma4-12b-qat-q4",
+      "cases": 377,
+      "loss": 0.4146404381806007,
+      "credits": 46398.176116838484,
+      "objective": 0.41872025951581326,
+      "g_cost": 0.3855785895602036
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "gemma4-e2b-qat-q4",
+      "cases": 377,
+      "loss": 0.6511836797882765,
+      "credits": 68693.61254295534,
+      "objective": 0.6572239531244489,
+      "g_cost": 0.6240822831688392
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "gemma4-e4b-qat-q4",
+      "cases": 377,
+      "loss": 0.5759089292818954,
+      "credits": 29744.55756013746,
+      "objective": 0.5785243872739234,
+      "g_cost": 0.5453827173183137
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "gpt-5-nano-2025-08-07",
+      "cases": 377,
+      "loss": 0.22450286781934017,
+      "credits": 31212.23281786941,
+      "objective": 0.22724737943654905,
+      "g_cost": 0.19410570948093925
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "cases": 377,
+      "loss": 0.867109458971899,
+      "credits": 5850.277491408936,
+      "objective": 0.8676238776177152,
+      "g_cost": 0.8344822076621052
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "gpt-5.4-nano-2026-03-17",
+      "cases": 377,
+      "loss": 0.1759248270299409,
+      "credits": 33798.16323024055,
+      "objective": 0.17889672116410898,
+      "g_cost": 0.14575505120849927
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "gpt-6-astra",
+      "cases": 377,
+      "loss": 0.04877599511401538,
+      "credits": 112505.3290378007,
+      "objective": 0.058668660734700236,
+      "g_cost": 0.025526990779090476
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "loss_menu_oracle",
+      "cases": 377,
+      "loss": 0.032060433723864364,
+      "credits": 23400.20189003436,
+      "objective": 0.03411802845945995,
+      "g_cost": 0.0009763585038501845
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "qwen3-0.6b-q8",
+      "cases": 377,
+      "loss": 1.240101209382347,
+      "credits": 0.0,
+      "objective": 1.240101209382347,
+      "g_cost": 1.206959539426737
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "qwen3-1.7b-q8",
+      "cases": 377,
+      "loss": 1.6895195313902063,
+      "credits": 82797.3616838488,
+      "objective": 1.696799956419122,
+      "g_cost": 1.6636582864635123
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "qwen3-4b-q8",
+      "cases": 377,
+      "loss": 0.602297883117775,
+      "credits": 894.3505154639175,
+      "objective": 0.6023765239312621,
+      "g_cost": 0.5692348539756524
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "qwen36-27b-q4",
+      "cases": 377,
+      "loss": 1.8186337130561039,
+      "credits": 10258.83762886598,
+      "objective": 1.819535779217656,
+      "g_cost": 1.786394109262046
+    },
+    {
+      "cost_weight": 0.01,
+      "model": "qwen36-35b-a3b-q4",
+      "cases": 377,
+      "loss": 1.8362222026599286,
+      "credits": 10928.225945017182,
+      "objective": 1.8371831285647366,
+      "g_cost": 1.8040414586091265
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "cost_aware_oracle",
+      "cases": 377,
+      "loss": 0.033179353660433175,
+      "credits": 2761.868556701031,
+      "objective": 0.033907912272369146,
+      "g_cost": 0.0
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "fixed_chronos2",
+      "cases": 377,
+      "loss": 0.04926954976147865,
+      "credits": 108919.40206185567,
+      "objective": 0.07800160805822406,
+      "g_cost": 0.04409369578585493
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "fixed_dev_route",
+      "cases": 377,
+      "loss": 0.05031344970806794,
+      "credits": 50297.75257731959,
+      "objective": 0.06358159047904018,
+      "g_cost": 0.02967367820667102
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "fixed_hour_of_day_empirical",
+      "cases": 377,
+      "loss": 0.052709773087455024,
+      "credits": 0.0,
+      "objective": 0.052709773087455024,
+      "g_cost": 0.01880186081508588
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "free_menu_oracle",
+      "cases": 377,
+      "loss": 0.03640577943970893,
+      "credits": 0.0,
+      "objective": 0.03640577943970893,
+      "g_cost": 0.0024978671673397835
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "gemma4-12b-qat-q4",
+      "cases": 377,
+      "loss": 0.4146404381806007,
+      "credits": 46398.176116838484,
+      "objective": 0.4268799021862384,
+      "g_cost": 0.3929719899138693
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "gemma4-e2b-qat-q4",
+      "cases": 377,
+      "loss": 0.6511836797882765,
+      "credits": 68693.61254295534,
+      "objective": 0.6693044997967937,
+      "g_cost": 0.6353965875244248
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "gemma4-e4b-qat-q4",
+      "cases": 377,
+      "loss": 0.5759089292818954,
+      "credits": 29744.55756013746,
+      "objective": 0.5837553032579793,
+      "g_cost": 0.5498473909856103
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "gpt-5-nano-2025-08-07",
+      "cases": 377,
+      "loss": 0.22450286781934017,
+      "credits": 31212.23281786941,
+      "objective": 0.23273640267096668,
+      "g_cost": 0.19882849039859757
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "cases": 377,
+      "loss": 0.867109458971899,
+      "credits": 5850.277491408936,
+      "objective": 0.8686527149093474,
+      "g_cost": 0.8347448026369784
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "gpt-5.4-nano-2026-03-17",
+      "cases": 377,
+      "loss": 0.1759248270299409,
+      "credits": 33798.16323024055,
+      "objective": 0.1848405094324453,
+      "g_cost": 0.15093259716007618
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "gpt-6-astra",
+      "cases": 377,
+      "loss": 0.04877599511401538,
+      "credits": 112505.3290378007,
+      "objective": 0.07845399197606996,
+      "g_cost": 0.04454607970370083
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "loss_menu_oracle",
+      "cases": 377,
+      "loss": 0.032060433723864364,
+      "credits": 23400.20189003436,
+      "objective": 0.038233217930651126,
+      "g_cost": 0.004325305658281978
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "qwen3-0.6b-q8",
+      "cases": 377,
+      "loss": 1.240101209382347,
+      "credits": 0.0,
+      "objective": 1.240101209382347,
+      "g_cost": 1.2061932971099776
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "qwen3-1.7b-q8",
+      "cases": 377,
+      "loss": 1.6895195313902063,
+      "credits": 82797.3616838488,
+      "objective": 1.711360806476954,
+      "g_cost": 1.6774528942045848
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "qwen3-4b-q8",
+      "cases": 377,
+      "loss": 0.602297883117775,
+      "credits": 894.3505154639175,
+      "objective": 0.6025338055582363,
+      "g_cost": 0.5686258932858673
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "qwen36-27b-q4",
+      "cases": 377,
+      "loss": 1.8186337130561039,
+      "credits": 10258.83762886598,
+      "objective": 1.8213399115407598,
+      "g_cost": 1.7874319992683907
+    },
+    {
+      "cost_weight": 0.03,
+      "model": "qwen36-35b-a3b-q4",
+      "cases": 377,
+      "loss": 1.8362222026599286,
+      "credits": 10928.225945017182,
+      "objective": 1.8391049803743522,
+      "g_cost": 1.8051970681019824
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "cost_aware_oracle",
+      "cases": 377,
+      "loss": 0.03420683929165993,
+      "credits": 580.893470790378,
+      "objective": 0.03471762264005026,
+      "g_cost": 0.0
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "fixed_chronos2",
+      "cases": 377,
+      "loss": 0.04926954976147865,
+      "credits": 108919.40206185567,
+      "objective": 0.14504307741729675,
+      "g_cost": 0.11032545477724648
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "fixed_dev_route",
+      "cases": 377,
+      "loss": 0.05031344970806794,
+      "credits": 50297.75257731959,
+      "objective": 0.09454058561130871,
+      "g_cost": 0.059822962971258456
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "fixed_hour_of_day_empirical",
+      "cases": 377,
+      "loss": 0.052709773087455024,
+      "credits": 0.0,
+      "objective": 0.052709773087455024,
+      "g_cost": 0.017992150447404775
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "free_menu_oracle",
+      "cases": 377,
+      "loss": 0.03640577943970893,
+      "credits": 0.0,
+      "objective": 0.03640577943970893,
+      "g_cost": 0.0016881567996586762
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "gemma4-12b-qat-q4",
+      "cases": 377,
+      "loss": 0.4146404381806007,
+      "credits": 46398.176116838484,
+      "objective": 0.4554386515327265,
+      "g_cost": 0.42072102889267615
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "gemma4-e2b-qat-q4",
+      "cases": 377,
+      "loss": 0.6511836797882765,
+      "credits": 68693.61254295534,
+      "objective": 0.7115864131500015,
+      "g_cost": 0.6768687905099513
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "gemma4-e4b-qat-q4",
+      "cases": 377,
+      "loss": 0.5759089292818954,
+      "credits": 29744.55756013746,
+      "objective": 0.6020635092021753,
+      "g_cost": 0.567345886562125
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "gpt-5-nano-2025-08-07",
+      "cases": 377,
+      "loss": 0.22450286781934017,
+      "credits": 31212.23281786941,
+      "objective": 0.2519479839914287,
+      "g_cost": 0.21723036135137846
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "gpt-5.4-mini-2026-03-17",
+      "cases": 377,
+      "loss": 0.867109458971899,
+      "credits": 5850.277491408936,
+      "objective": 0.8722536454300607,
+      "g_cost": 0.8375360227900103
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "gpt-5.4-nano-2026-03-17",
+      "cases": 377,
+      "loss": 0.1759248270299409,
+      "credits": 33798.16323024055,
+      "objective": 0.20564376837162227,
+      "g_cost": 0.170926145731572
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "gpt-6-astra",
+      "cases": 377,
+      "loss": 0.04877599511401538,
+      "credits": 112505.3290378007,
+      "objective": 0.14770265132086405,
+      "g_cost": 0.11298502868081378
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "loss_menu_oracle",
+      "cases": 377,
+      "loss": 0.032060433723864364,
+      "credits": 23400.20189003436,
+      "objective": 0.05263638107982023,
+      "g_cost": 0.017918758439769974
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "qwen3-0.6b-q8",
+      "cases": 377,
+      "loss": 1.240101209382347,
+      "credits": 0.0,
+      "objective": 1.240101209382347,
+      "g_cost": 1.2053835867422964
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "qwen3-1.7b-q8",
+      "cases": 377,
+      "loss": 1.6895195313902063,
+      "credits": 82797.3616838488,
+      "objective": 1.762323781679365,
+      "g_cost": 1.7276061590393148
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "qwen3-4b-q8",
+      "cases": 377,
+      "loss": 0.602297883117775,
+      "credits": 894.3505154639175,
+      "objective": 0.6030842912526464,
+      "g_cost": 0.5683666686125962
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "qwen36-27b-q4",
+      "cases": 377,
+      "loss": 1.8186337130561039,
+      "credits": 10258.83762886598,
+      "objective": 1.8276543746716234,
+      "g_cost": 1.792936752031573
+    },
+    {
+      "cost_weight": 0.1,
+      "model": "qwen36-35b-a3b-q4",
+      "cases": 377,
+      "loss": 1.8362222026599286,
+      "credits": 10928.225945017182,
+      "objective": 1.845831461708007,
+      "g_cost": 1.8111138390679562
+    }
+  ],
+  "definition": "macro[loss + lambda*spent/B - min_j(loss_j + lambda*credits_j/B)], credits_j <= B",
+  "interpretation": "Signed finite-menu regret to a common loss-cost oracle. Positive lambda strictly penalizes extra spend at fixed loss. Ranking equals penalized loss on the same cohort.",
+  "selection": "Illustrative post-hoc reporting convention: lambda=0.01 prices full-budget use at 0.01 normalized loss. Chosen after the primary results were available; not externally calibrated or preregistered. No universally preferred coefficient is claimed. Full sensitivity grid is reported.",
+  "publication": "Local revised metric only; frozen primary-377 loss leaderboard is unchanged."
+}

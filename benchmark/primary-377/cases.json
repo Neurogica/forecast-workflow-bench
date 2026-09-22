@@ -1,0 +1,3777 @@
+{
+  "track": "primary-377-v1",
+  "cases": [
+    {
+      "case_id": "AECI-2026-07-23-day_ahead",
+      "authority": "AECI",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "AECI-2026-07-17-week_ahead",
+      "authority": "AECI",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "AECI-2026-07-24-day_ahead",
+      "authority": "AECI",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "AECI-2026-07-18-week_ahead",
+      "authority": "AECI",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "AECI-2026-07-25-day_ahead",
+      "authority": "AECI",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "AECI-2026-07-19-week_ahead",
+      "authority": "AECI",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "AECI-2026-07-26-day_ahead",
+      "authority": "AECI",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "AECI-2026-07-20-week_ahead",
+      "authority": "AECI",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "AVA-2026-07-23-day_ahead",
+      "authority": "AVA",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "AVA-2026-07-17-week_ahead",
+      "authority": "AVA",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "AVA-2026-07-24-day_ahead",
+      "authority": "AVA",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "AVA-2026-07-18-week_ahead",
+      "authority": "AVA",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "AVA-2026-07-25-day_ahead",
+      "authority": "AVA",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "AVA-2026-07-19-week_ahead",
+      "authority": "AVA",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "AVA-2026-07-26-day_ahead",
+      "authority": "AVA",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "AVA-2026-07-20-week_ahead",
+      "authority": "AVA",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "AZPS-2026-07-23-day_ahead",
+      "authority": "AZPS",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "AZPS-2026-07-17-week_ahead",
+      "authority": "AZPS",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "AZPS-2026-07-24-day_ahead",
+      "authority": "AZPS",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "AZPS-2026-07-18-week_ahead",
+      "authority": "AZPS",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "AZPS-2026-07-25-day_ahead",
+      "authority": "AZPS",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "AZPS-2026-07-19-week_ahead",
+      "authority": "AZPS",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "AZPS-2026-07-26-day_ahead",
+      "authority": "AZPS",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "AZPS-2026-07-20-week_ahead",
+      "authority": "AZPS",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "BANC-2026-07-23-day_ahead",
+      "authority": "BANC",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "BANC-2026-07-17-week_ahead",
+      "authority": "BANC",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "BANC-2026-07-24-day_ahead",
+      "authority": "BANC",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "BANC-2026-07-18-week_ahead",
+      "authority": "BANC",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "BANC-2026-07-25-day_ahead",
+      "authority": "BANC",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "BANC-2026-07-19-week_ahead",
+      "authority": "BANC",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "BANC-2026-07-26-day_ahead",
+      "authority": "BANC",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "BANC-2026-07-20-week_ahead",
+      "authority": "BANC",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "BHBA-2026-07-23-day_ahead",
+      "authority": "BHBA",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "BHBA-2026-07-17-week_ahead",
+      "authority": "BHBA",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "BHBA-2026-07-24-day_ahead",
+      "authority": "BHBA",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "BHBA-2026-07-18-week_ahead",
+      "authority": "BHBA",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "BHBA-2026-07-25-day_ahead",
+      "authority": "BHBA",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "BHBA-2026-07-19-week_ahead",
+      "authority": "BHBA",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "BHBA-2026-07-26-day_ahead",
+      "authority": "BHBA",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "BHBA-2026-07-20-week_ahead",
+      "authority": "BHBA",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "BPAT-2026-07-23-day_ahead",
+      "authority": "BPAT",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "BPAT-2026-07-17-week_ahead",
+      "authority": "BPAT",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "BPAT-2026-07-24-day_ahead",
+      "authority": "BPAT",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "BPAT-2026-07-18-week_ahead",
+      "authority": "BPAT",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "BPAT-2026-07-25-day_ahead",
+      "authority": "BPAT",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "BPAT-2026-07-19-week_ahead",
+      "authority": "BPAT",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "BPAT-2026-07-26-day_ahead",
+      "authority": "BPAT",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "BPAT-2026-07-20-week_ahead",
+      "authority": "BPAT",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CHPD-2026-07-23-day_ahead",
+      "authority": "CHPD",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CHPD-2026-07-17-week_ahead",
+      "authority": "CHPD",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CHPD-2026-07-24-day_ahead",
+      "authority": "CHPD",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CHPD-2026-07-18-week_ahead",
+      "authority": "CHPD",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CHPD-2026-07-25-day_ahead",
+      "authority": "CHPD",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CHPD-2026-07-19-week_ahead",
+      "authority": "CHPD",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CHPD-2026-07-26-day_ahead",
+      "authority": "CHPD",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CHPD-2026-07-20-week_ahead",
+      "authority": "CHPD",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CISO-2026-07-23-day_ahead",
+      "authority": "CISO",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CISO-2026-07-17-week_ahead",
+      "authority": "CISO",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CISO-2026-07-24-day_ahead",
+      "authority": "CISO",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CISO-2026-07-18-week_ahead",
+      "authority": "CISO",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CISO-2026-07-25-day_ahead",
+      "authority": "CISO",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CISO-2026-07-19-week_ahead",
+      "authority": "CISO",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CISO-2026-07-26-day_ahead",
+      "authority": "CISO",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CISO-2026-07-20-week_ahead",
+      "authority": "CISO",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CPLE-2026-07-23-day_ahead",
+      "authority": "CPLE",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CPLE-2026-07-17-week_ahead",
+      "authority": "CPLE",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CPLE-2026-07-24-day_ahead",
+      "authority": "CPLE",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CPLE-2026-07-18-week_ahead",
+      "authority": "CPLE",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CPLE-2026-07-25-day_ahead",
+      "authority": "CPLE",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CPLE-2026-07-19-week_ahead",
+      "authority": "CPLE",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CPLE-2026-07-26-day_ahead",
+      "authority": "CPLE",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CPLE-2026-07-20-week_ahead",
+      "authority": "CPLE",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CPLW-2026-07-23-day_ahead",
+      "authority": "CPLW",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CPLW-2026-07-17-week_ahead",
+      "authority": "CPLW",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CPLW-2026-07-24-day_ahead",
+      "authority": "CPLW",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CPLW-2026-07-18-week_ahead",
+      "authority": "CPLW",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CPLW-2026-07-25-day_ahead",
+      "authority": "CPLW",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CPLW-2026-07-19-week_ahead",
+      "authority": "CPLW",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "CPLW-2026-07-26-day_ahead",
+      "authority": "CPLW",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "CPLW-2026-07-20-week_ahead",
+      "authority": "CPLW",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "DOPD-2026-07-24-day_ahead",
+      "authority": "DOPD",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "DOPD-2026-07-18-week_ahead",
+      "authority": "DOPD",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "DOPD-2026-07-25-day_ahead",
+      "authority": "DOPD",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "DOPD-2026-07-19-week_ahead",
+      "authority": "DOPD",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "DOPD-2026-07-26-day_ahead",
+      "authority": "DOPD",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "DOPD-2026-07-20-week_ahead",
+      "authority": "DOPD",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "DUK-2026-07-23-day_ahead",
+      "authority": "DUK",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "DUK-2026-07-17-week_ahead",
+      "authority": "DUK",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "DUK-2026-07-24-day_ahead",
+      "authority": "DUK",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "DUK-2026-07-18-week_ahead",
+      "authority": "DUK",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "DUK-2026-07-25-day_ahead",
+      "authority": "DUK",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "DUK-2026-07-19-week_ahead",
+      "authority": "DUK",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "DUK-2026-07-26-day_ahead",
+      "authority": "DUK",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "DUK-2026-07-20-week_ahead",
+      "authority": "DUK",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "EPE-2026-07-23-day_ahead",
+      "authority": "EPE",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "EPE-2026-07-17-week_ahead",
+      "authority": "EPE",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "EPE-2026-07-24-day_ahead",
+      "authority": "EPE",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "EPE-2026-07-18-week_ahead",
+      "authority": "EPE",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "EPE-2026-07-25-day_ahead",
+      "authority": "EPE",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "EPE-2026-07-19-week_ahead",
+      "authority": "EPE",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "ERCO-2026-07-23-day_ahead",
+      "authority": "ERCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "ERCO-2026-07-17-week_ahead",
+      "authority": "ERCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "ERCO-2026-07-24-day_ahead",
+      "authority": "ERCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "ERCO-2026-07-18-week_ahead",
+      "authority": "ERCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "ERCO-2026-07-25-day_ahead",
+      "authority": "ERCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "ERCO-2026-07-19-week_ahead",
+      "authority": "ERCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "ERCO-2026-07-26-day_ahead",
+      "authority": "ERCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "ERCO-2026-07-20-week_ahead",
+      "authority": "ERCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "FMPP-2026-07-23-day_ahead",
+      "authority": "FMPP",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "FMPP-2026-07-17-week_ahead",
+      "authority": "FMPP",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "FMPP-2026-07-24-day_ahead",
+      "authority": "FMPP",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "FMPP-2026-07-18-week_ahead",
+      "authority": "FMPP",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "FMPP-2026-07-25-day_ahead",
+      "authority": "FMPP",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "FMPP-2026-07-19-week_ahead",
+      "authority": "FMPP",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "FMPP-2026-07-26-day_ahead",
+      "authority": "FMPP",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "FMPP-2026-07-20-week_ahead",
+      "authority": "FMPP",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "FPC-2026-07-23-day_ahead",
+      "authority": "FPC",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "FPC-2026-07-17-week_ahead",
+      "authority": "FPC",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "FPC-2026-07-24-day_ahead",
+      "authority": "FPC",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "FPC-2026-07-18-week_ahead",
+      "authority": "FPC",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "FPC-2026-07-25-day_ahead",
+      "authority": "FPC",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "FPC-2026-07-19-week_ahead",
+      "authority": "FPC",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "FPC-2026-07-26-day_ahead",
+      "authority": "FPC",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "FPC-2026-07-20-week_ahead",
+      "authority": "FPC",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "FPL-2026-07-23-day_ahead",
+      "authority": "FPL",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "FPL-2026-07-17-week_ahead",
+      "authority": "FPL",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "FPL-2026-07-24-day_ahead",
+      "authority": "FPL",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "FPL-2026-07-18-week_ahead",
+      "authority": "FPL",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "FPL-2026-07-25-day_ahead",
+      "authority": "FPL",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "FPL-2026-07-19-week_ahead",
+      "authority": "FPL",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "FPL-2026-07-26-day_ahead",
+      "authority": "FPL",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "FPL-2026-07-20-week_ahead",
+      "authority": "FPL",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "GCPD-2026-07-23-day_ahead",
+      "authority": "GCPD",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "GCPD-2026-07-17-week_ahead",
+      "authority": "GCPD",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "GCPD-2026-07-24-day_ahead",
+      "authority": "GCPD",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "GCPD-2026-07-18-week_ahead",
+      "authority": "GCPD",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "GCPD-2026-07-25-day_ahead",
+      "authority": "GCPD",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "GCPD-2026-07-19-week_ahead",
+      "authority": "GCPD",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "GCPD-2026-07-26-day_ahead",
+      "authority": "GCPD",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "GCPD-2026-07-20-week_ahead",
+      "authority": "GCPD",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "GVL-2026-07-17-week_ahead",
+      "authority": "GVL",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "GVL-2026-07-18-week_ahead",
+      "authority": "GVL",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "GVL-2026-07-19-week_ahead",
+      "authority": "GVL",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "GVL-2026-07-20-week_ahead",
+      "authority": "GVL",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "HST-2026-07-23-day_ahead",
+      "authority": "HST",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "HST-2026-07-17-week_ahead",
+      "authority": "HST",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "HST-2026-07-24-day_ahead",
+      "authority": "HST",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "HST-2026-07-18-week_ahead",
+      "authority": "HST",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "HST-2026-07-25-day_ahead",
+      "authority": "HST",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "HST-2026-07-19-week_ahead",
+      "authority": "HST",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "HST-2026-07-26-day_ahead",
+      "authority": "HST",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "HST-2026-07-20-week_ahead",
+      "authority": "HST",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "IID-2026-07-23-day_ahead",
+      "authority": "IID",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "IID-2026-07-17-week_ahead",
+      "authority": "IID",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "IID-2026-07-24-day_ahead",
+      "authority": "IID",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "IID-2026-07-18-week_ahead",
+      "authority": "IID",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "IID-2026-07-25-day_ahead",
+      "authority": "IID",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "IID-2026-07-19-week_ahead",
+      "authority": "IID",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "IID-2026-07-26-day_ahead",
+      "authority": "IID",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "IID-2026-07-20-week_ahead",
+      "authority": "IID",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "IPCO-2026-07-23-day_ahead",
+      "authority": "IPCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "IPCO-2026-07-17-week_ahead",
+      "authority": "IPCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "IPCO-2026-07-24-day_ahead",
+      "authority": "IPCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "IPCO-2026-07-18-week_ahead",
+      "authority": "IPCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "IPCO-2026-07-25-day_ahead",
+      "authority": "IPCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "IPCO-2026-07-19-week_ahead",
+      "authority": "IPCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "IPCO-2026-07-26-day_ahead",
+      "authority": "IPCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "IPCO-2026-07-20-week_ahead",
+      "authority": "IPCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "ISNE-2026-07-23-day_ahead",
+      "authority": "ISNE",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "ISNE-2026-07-17-week_ahead",
+      "authority": "ISNE",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "ISNE-2026-07-24-day_ahead",
+      "authority": "ISNE",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "ISNE-2026-07-18-week_ahead",
+      "authority": "ISNE",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "ISNE-2026-07-25-day_ahead",
+      "authority": "ISNE",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "ISNE-2026-07-19-week_ahead",
+      "authority": "ISNE",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "ISNE-2026-07-26-day_ahead",
+      "authority": "ISNE",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "ISNE-2026-07-20-week_ahead",
+      "authority": "ISNE",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "JEA-2026-07-23-day_ahead",
+      "authority": "JEA",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "JEA-2026-07-17-week_ahead",
+      "authority": "JEA",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "JEA-2026-07-24-day_ahead",
+      "authority": "JEA",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "JEA-2026-07-18-week_ahead",
+      "authority": "JEA",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "JEA-2026-07-25-day_ahead",
+      "authority": "JEA",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "JEA-2026-07-19-week_ahead",
+      "authority": "JEA",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "JEA-2026-07-26-day_ahead",
+      "authority": "JEA",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "JEA-2026-07-20-week_ahead",
+      "authority": "JEA",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "LDWP-2026-07-23-day_ahead",
+      "authority": "LDWP",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "LDWP-2026-07-17-week_ahead",
+      "authority": "LDWP",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "LDWP-2026-07-24-day_ahead",
+      "authority": "LDWP",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "LDWP-2026-07-18-week_ahead",
+      "authority": "LDWP",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "LDWP-2026-07-25-day_ahead",
+      "authority": "LDWP",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "LDWP-2026-07-19-week_ahead",
+      "authority": "LDWP",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "LDWP-2026-07-26-day_ahead",
+      "authority": "LDWP",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "LDWP-2026-07-20-week_ahead",
+      "authority": "LDWP",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "LGEE-2026-07-23-day_ahead",
+      "authority": "LGEE",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "LGEE-2026-07-17-week_ahead",
+      "authority": "LGEE",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "LGEE-2026-07-24-day_ahead",
+      "authority": "LGEE",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "LGEE-2026-07-18-week_ahead",
+      "authority": "LGEE",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "LGEE-2026-07-25-day_ahead",
+      "authority": "LGEE",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "LGEE-2026-07-19-week_ahead",
+      "authority": "LGEE",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "LGEE-2026-07-26-day_ahead",
+      "authority": "LGEE",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "LGEE-2026-07-20-week_ahead",
+      "authority": "LGEE",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "MISO-2026-07-23-day_ahead",
+      "authority": "MISO",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "MISO-2026-07-17-week_ahead",
+      "authority": "MISO",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "MISO-2026-07-24-day_ahead",
+      "authority": "MISO",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "MISO-2026-07-18-week_ahead",
+      "authority": "MISO",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "MISO-2026-07-25-day_ahead",
+      "authority": "MISO",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "MISO-2026-07-19-week_ahead",
+      "authority": "MISO",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "MISO-2026-07-26-day_ahead",
+      "authority": "MISO",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "MISO-2026-07-20-week_ahead",
+      "authority": "MISO",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "NWMT-2026-07-23-day_ahead",
+      "authority": "NWMT",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "NWMT-2026-07-17-week_ahead",
+      "authority": "NWMT",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "NWMT-2026-07-24-day_ahead",
+      "authority": "NWMT",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "NWMT-2026-07-18-week_ahead",
+      "authority": "NWMT",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "NWMT-2026-07-25-day_ahead",
+      "authority": "NWMT",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "NWMT-2026-07-19-week_ahead",
+      "authority": "NWMT",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "NWMT-2026-07-26-day_ahead",
+      "authority": "NWMT",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "NWMT-2026-07-20-week_ahead",
+      "authority": "NWMT",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "NYIS-2026-07-23-day_ahead",
+      "authority": "NYIS",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "NYIS-2026-07-17-week_ahead",
+      "authority": "NYIS",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "NYIS-2026-07-24-day_ahead",
+      "authority": "NYIS",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "NYIS-2026-07-18-week_ahead",
+      "authority": "NYIS",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "NYIS-2026-07-25-day_ahead",
+      "authority": "NYIS",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "NYIS-2026-07-19-week_ahead",
+      "authority": "NYIS",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "NYIS-2026-07-26-day_ahead",
+      "authority": "NYIS",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "NYIS-2026-07-20-week_ahead",
+      "authority": "NYIS",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PACE-2026-07-23-day_ahead",
+      "authority": "PACE",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PACE-2026-07-17-week_ahead",
+      "authority": "PACE",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PACE-2026-07-24-day_ahead",
+      "authority": "PACE",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PACE-2026-07-18-week_ahead",
+      "authority": "PACE",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PACE-2026-07-25-day_ahead",
+      "authority": "PACE",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PACE-2026-07-19-week_ahead",
+      "authority": "PACE",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PACE-2026-07-26-day_ahead",
+      "authority": "PACE",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PACE-2026-07-20-week_ahead",
+      "authority": "PACE",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PACW-2026-07-23-day_ahead",
+      "authority": "PACW",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PACW-2026-07-17-week_ahead",
+      "authority": "PACW",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PACW-2026-07-24-day_ahead",
+      "authority": "PACW",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PACW-2026-07-18-week_ahead",
+      "authority": "PACW",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PACW-2026-07-25-day_ahead",
+      "authority": "PACW",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PACW-2026-07-19-week_ahead",
+      "authority": "PACW",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PACW-2026-07-26-day_ahead",
+      "authority": "PACW",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PACW-2026-07-20-week_ahead",
+      "authority": "PACW",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PGE-2026-07-23-day_ahead",
+      "authority": "PGE",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PGE-2026-07-17-week_ahead",
+      "authority": "PGE",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PGE-2026-07-24-day_ahead",
+      "authority": "PGE",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PGE-2026-07-18-week_ahead",
+      "authority": "PGE",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PGE-2026-07-25-day_ahead",
+      "authority": "PGE",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PGE-2026-07-19-week_ahead",
+      "authority": "PGE",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PGE-2026-07-26-day_ahead",
+      "authority": "PGE",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PGE-2026-07-20-week_ahead",
+      "authority": "PGE",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PJM-2026-07-23-day_ahead",
+      "authority": "PJM",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PJM-2026-07-17-week_ahead",
+      "authority": "PJM",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PJM-2026-07-24-day_ahead",
+      "authority": "PJM",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PJM-2026-07-18-week_ahead",
+      "authority": "PJM",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PJM-2026-07-25-day_ahead",
+      "authority": "PJM",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PJM-2026-07-19-week_ahead",
+      "authority": "PJM",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PJM-2026-07-26-day_ahead",
+      "authority": "PJM",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PJM-2026-07-20-week_ahead",
+      "authority": "PJM",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PNM-2026-07-23-day_ahead",
+      "authority": "PNM",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PNM-2026-07-17-week_ahead",
+      "authority": "PNM",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PNM-2026-07-24-day_ahead",
+      "authority": "PNM",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PNM-2026-07-18-week_ahead",
+      "authority": "PNM",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PNM-2026-07-26-day_ahead",
+      "authority": "PNM",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PNM-2026-07-20-week_ahead",
+      "authority": "PNM",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PSCO-2026-07-23-day_ahead",
+      "authority": "PSCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PSCO-2026-07-17-week_ahead",
+      "authority": "PSCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PSCO-2026-07-24-day_ahead",
+      "authority": "PSCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PSCO-2026-07-18-week_ahead",
+      "authority": "PSCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PSCO-2026-07-25-day_ahead",
+      "authority": "PSCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PSCO-2026-07-19-week_ahead",
+      "authority": "PSCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PSCO-2026-07-26-day_ahead",
+      "authority": "PSCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PSCO-2026-07-20-week_ahead",
+      "authority": "PSCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PSEI-2026-07-23-day_ahead",
+      "authority": "PSEI",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PSEI-2026-07-17-week_ahead",
+      "authority": "PSEI",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PSEI-2026-07-24-day_ahead",
+      "authority": "PSEI",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PSEI-2026-07-18-week_ahead",
+      "authority": "PSEI",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PSEI-2026-07-25-day_ahead",
+      "authority": "PSEI",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PSEI-2026-07-19-week_ahead",
+      "authority": "PSEI",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "PSEI-2026-07-26-day_ahead",
+      "authority": "PSEI",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "PSEI-2026-07-20-week_ahead",
+      "authority": "PSEI",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SC-2026-07-23-day_ahead",
+      "authority": "SC",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SC-2026-07-17-week_ahead",
+      "authority": "SC",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SC-2026-07-24-day_ahead",
+      "authority": "SC",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SC-2026-07-18-week_ahead",
+      "authority": "SC",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SC-2026-07-25-day_ahead",
+      "authority": "SC",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SC-2026-07-19-week_ahead",
+      "authority": "SC",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SC-2026-07-26-day_ahead",
+      "authority": "SC",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SC-2026-07-20-week_ahead",
+      "authority": "SC",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SCEG-2026-07-23-day_ahead",
+      "authority": "SCEG",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SCEG-2026-07-17-week_ahead",
+      "authority": "SCEG",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SCEG-2026-07-24-day_ahead",
+      "authority": "SCEG",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SCEG-2026-07-18-week_ahead",
+      "authority": "SCEG",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SCEG-2026-07-25-day_ahead",
+      "authority": "SCEG",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SCEG-2026-07-19-week_ahead",
+      "authority": "SCEG",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SCEG-2026-07-26-day_ahead",
+      "authority": "SCEG",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SCEG-2026-07-20-week_ahead",
+      "authority": "SCEG",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SCL-2026-07-23-day_ahead",
+      "authority": "SCL",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SCL-2026-07-17-week_ahead",
+      "authority": "SCL",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SCL-2026-07-24-day_ahead",
+      "authority": "SCL",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SCL-2026-07-18-week_ahead",
+      "authority": "SCL",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SCL-2026-07-25-day_ahead",
+      "authority": "SCL",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SCL-2026-07-19-week_ahead",
+      "authority": "SCL",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SCL-2026-07-26-day_ahead",
+      "authority": "SCL",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SCL-2026-07-20-week_ahead",
+      "authority": "SCL",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SOCO-2026-07-23-day_ahead",
+      "authority": "SOCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SOCO-2026-07-17-week_ahead",
+      "authority": "SOCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SOCO-2026-07-24-day_ahead",
+      "authority": "SOCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SOCO-2026-07-18-week_ahead",
+      "authority": "SOCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SOCO-2026-07-25-day_ahead",
+      "authority": "SOCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SOCO-2026-07-19-week_ahead",
+      "authority": "SOCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SOCO-2026-07-26-day_ahead",
+      "authority": "SOCO",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SOCO-2026-07-20-week_ahead",
+      "authority": "SOCO",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SPA-2026-07-18-week_ahead",
+      "authority": "SPA",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SPA-2026-07-19-week_ahead",
+      "authority": "SPA",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SPA-2026-07-20-week_ahead",
+      "authority": "SPA",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SRP-2026-07-23-day_ahead",
+      "authority": "SRP",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SRP-2026-07-17-week_ahead",
+      "authority": "SRP",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SRP-2026-07-24-day_ahead",
+      "authority": "SRP",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SRP-2026-07-18-week_ahead",
+      "authority": "SRP",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SRP-2026-07-25-day_ahead",
+      "authority": "SRP",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SRP-2026-07-19-week_ahead",
+      "authority": "SRP",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SRP-2026-07-26-day_ahead",
+      "authority": "SRP",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SRP-2026-07-20-week_ahead",
+      "authority": "SRP",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SWPP-2026-07-23-day_ahead",
+      "authority": "SWPP",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SWPP-2026-07-17-week_ahead",
+      "authority": "SWPP",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SWPP-2026-07-24-day_ahead",
+      "authority": "SWPP",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SWPP-2026-07-18-week_ahead",
+      "authority": "SWPP",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SWPP-2026-07-25-day_ahead",
+      "authority": "SWPP",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SWPP-2026-07-19-week_ahead",
+      "authority": "SWPP",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SWPP-2026-07-26-day_ahead",
+      "authority": "SWPP",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SWPP-2026-07-20-week_ahead",
+      "authority": "SWPP",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SWPW-2026-07-23-day_ahead",
+      "authority": "SWPW",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SWPW-2026-07-17-week_ahead",
+      "authority": "SWPW",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SWPW-2026-07-24-day_ahead",
+      "authority": "SWPW",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SWPW-2026-07-18-week_ahead",
+      "authority": "SWPW",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "SWPW-2026-07-25-day_ahead",
+      "authority": "SWPW",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "SWPW-2026-07-19-week_ahead",
+      "authority": "SWPW",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TAL-2026-07-23-day_ahead",
+      "authority": "TAL",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TAL-2026-07-17-week_ahead",
+      "authority": "TAL",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TAL-2026-07-24-day_ahead",
+      "authority": "TAL",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TAL-2026-07-18-week_ahead",
+      "authority": "TAL",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TAL-2026-07-25-day_ahead",
+      "authority": "TAL",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TAL-2026-07-19-week_ahead",
+      "authority": "TAL",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TAL-2026-07-26-day_ahead",
+      "authority": "TAL",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TAL-2026-07-20-week_ahead",
+      "authority": "TAL",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TEC-2026-07-23-day_ahead",
+      "authority": "TEC",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TEC-2026-07-17-week_ahead",
+      "authority": "TEC",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TEC-2026-07-24-day_ahead",
+      "authority": "TEC",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TEC-2026-07-18-week_ahead",
+      "authority": "TEC",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TEC-2026-07-25-day_ahead",
+      "authority": "TEC",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TEC-2026-07-19-week_ahead",
+      "authority": "TEC",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TEC-2026-07-26-day_ahead",
+      "authority": "TEC",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TEC-2026-07-20-week_ahead",
+      "authority": "TEC",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TEPC-2026-07-23-day_ahead",
+      "authority": "TEPC",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TEPC-2026-07-17-week_ahead",
+      "authority": "TEPC",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TEPC-2026-07-24-day_ahead",
+      "authority": "TEPC",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TEPC-2026-07-18-week_ahead",
+      "authority": "TEPC",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TEPC-2026-07-25-day_ahead",
+      "authority": "TEPC",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TEPC-2026-07-19-week_ahead",
+      "authority": "TEPC",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TEPC-2026-07-26-day_ahead",
+      "authority": "TEPC",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TEPC-2026-07-20-week_ahead",
+      "authority": "TEPC",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TIDC-2026-07-23-day_ahead",
+      "authority": "TIDC",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TIDC-2026-07-17-week_ahead",
+      "authority": "TIDC",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TIDC-2026-07-24-day_ahead",
+      "authority": "TIDC",
+      "family": "day_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-24T00:00:00+00:00",
+      "last_visible": "2026-07-23T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TIDC-2026-07-18-week_ahead",
+      "authority": "TIDC",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TIDC-2026-07-25-day_ahead",
+      "authority": "TIDC",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TIDC-2026-07-19-week_ahead",
+      "authority": "TIDC",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TIDC-2026-07-26-day_ahead",
+      "authority": "TIDC",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TIDC-2026-07-20-week_ahead",
+      "authority": "TIDC",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TPWR-2026-07-23-day_ahead",
+      "authority": "TPWR",
+      "family": "day_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-23T00:00:00+00:00",
+      "last_visible": "2026-07-22T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TPWR-2026-07-17-week_ahead",
+      "authority": "TPWR",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TPWR-2026-07-25-day_ahead",
+      "authority": "TPWR",
+      "family": "day_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-25T00:00:00+00:00",
+      "last_visible": "2026-07-24T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TPWR-2026-07-19-week_ahead",
+      "authority": "TPWR",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TPWR-2026-07-26-day_ahead",
+      "authority": "TPWR",
+      "family": "day_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-26T00:00:00+00:00",
+      "last_visible": "2026-07-25T21:00:00+00:00",
+      "expected_horizon": 50
+    },
+    {
+      "case_id": "TPWR-2026-07-20-week_ahead",
+      "authority": "TPWR",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TVA-2026-07-17-week_ahead",
+      "authority": "TVA",
+      "family": "week_ahead",
+      "target_start": "2026-07-24T00:00:00+00:00",
+      "target_end": "2026-07-25T00:00:00+00:00",
+      "as_of": "2026-07-17T00:00:00+00:00",
+      "last_visible": "2026-07-16T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TVA-2026-07-18-week_ahead",
+      "authority": "TVA",
+      "family": "week_ahead",
+      "target_start": "2026-07-25T00:00:00+00:00",
+      "target_end": "2026-07-26T00:00:00+00:00",
+      "as_of": "2026-07-18T00:00:00+00:00",
+      "last_visible": "2026-07-17T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TVA-2026-07-19-week_ahead",
+      "authority": "TVA",
+      "family": "week_ahead",
+      "target_start": "2026-07-26T00:00:00+00:00",
+      "target_end": "2026-07-27T00:00:00+00:00",
+      "as_of": "2026-07-19T00:00:00+00:00",
+      "last_visible": "2026-07-18T21:00:00+00:00",
+      "expected_horizon": 194
+    },
+    {
+      "case_id": "TVA-2026-07-20-week_ahead",
+      "authority": "TVA",
+      "family": "week_ahead",
+      "target_start": "2026-07-27T00:00:00+00:00",
+      "target_end": "2026-07-28T00:00:00+00:00",
+      "as_of": "2026-07-20T00:00:00+00:00",
+      "last_visible": "2026-07-19T21:00:00+00:00",
+      "expected_horizon": 194
+    }
+  ],
+  "targets_included": false,
+  "observation_files_included": false
+}

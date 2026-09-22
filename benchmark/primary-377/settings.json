@@ -1,0 +1,25 @@
+{
+  "track": "primary-377-v1",
+  "cases": 377,
+  "call_limit": 12,
+  "max_output_tokens": 16384,
+  "forecast_credit_budget": 113726,
+  "parser": "submission-format-v1",
+  "ranking": "Mean normalized loss, macro-averaged over authority x lead groups; lower is better. Credits and validity are separate columns; fixed policies are separate.",
+  "source_sdk_sha256": "a9bbc6ed94d6ee63969f72360699e0918c8d53567d048921d0914cfd04c1929c",
+  "forecast_models": [
+    "amazon/chronos-2",
+    "google/timesfm-2.5-200m-pytorch",
+    "amazon/chronos-bolt-tiny"
+  ],
+  "local": {
+    "context": 32768,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "seed": 1701,
+    "thinking": false
+  },
+  "hosted": {
+    "reasoning": "high"
+  }
+}

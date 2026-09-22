@@ -1,0 +1,48 @@
+{
+  "schema_version": "0.1",
+  "statistical": [
+    "naive",
+    "seasonal_naive",
+    "drift"
+  ],
+  "foundation_candidates": [
+    {
+      "id": "amazon/chronos-2",
+      "adapter": "CPU real-data smoke passed",
+      "revision": "0f8a440441931157957e2be1a9bce66627d99c76",
+      "weights_available_at": "2025-10-30T14:58:57Z",
+      "contamination_audit": "Pinned revision predates all pilot observations; does not exclude older same-source training data",
+      "revision_at": "2026-01-06T09:44:02Z",
+      "license": "Apache-2.0",
+      "point_forecast": "median (q=0.5)"
+    },
+    {
+      "id": "google/timesfm-2.5-200m-pytorch",
+      "adapter": "CPU real-data smoke passed",
+      "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+      "weights_available_at": "2025-10-01T22:16:35Z",
+      "contamination_audit": "pending",
+      "license": "Apache-2.0",
+      "point_forecast": "median (q=0.5)",
+      "code_revision": "8cb0628371af142e16b8c232cc9fbf667ffb12f9"
+    },
+    {
+      "id": "NX-AI/TiRex",
+      "adapter": "deferred pending license review",
+      "revision": null,
+      "weights_available_at": null,
+      "contamination_audit": "pending",
+      "license": "NX-AI Community License"
+    },
+    {
+      "id": "amazon/chronos-bolt-tiny",
+      "adapter": "Opt-in native quantile and median service; real MCP smoke verified",
+      "revision": "a0e552de83495b5c28c14c71c374f3e33280b340",
+      "revision_at": "2025-11-21T12:54:42Z",
+      "license": "Apache-2.0",
+      "native_horizon_steps": 64,
+      "long_horizon": "Explicit quantile-path heuristic beyond native horizon; no calibration guarantee",
+      "contamination_audit": "Pinned public snapshot predates selected 2026 observations; older same-source training and closed-LLM exposure not excluded"
+    }
+  ]
+}

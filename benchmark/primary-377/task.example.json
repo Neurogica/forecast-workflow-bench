@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "task_id": "p3--ISNE-2026-07-25-day_ahead--b113726_full",
+  "group_id": "ISNE",
+  "split": "test",
+  "family": "decision_flexible_day_ahead",
+  "instruction": "At 2026-07-25T00:00:00+00:00, commit capacity for eia_isne_demand during [2026-07-26T00:00:00+00:00, 2026-07-27T00:00:00+00:00) UTC. Return JSON decisions b00 through b07 for eight consecutive three-hour blocks. Values must belong to capacity_grid_mw. Adjacent capacities divided by scale_mw may differ by at most ramp. Minimize mean hourly surplus_price*max(a-y,0)+hourly_priority[h]*max(y-a,0), with a,y normalized by scale_mw. No total-capacity constraint, change fee or emergency charge. Forecast budget: 113726 credits. Choose whether to buy forecasts, their model, horizon and context. Timestamps label measured hour starts. Shared decision support is available: capacity_plan.submission can be submitted. Expected losses conditional on different model forecasts are not measured validation. No future observations are visible. Missing, duplicate, nonfinite, off-grid and ramp-violating actions are invalid. Real revised EIA demand with simulated business costs, not publication vintages. Parameters: {\"surplus_price\": 0.3, \"ramp\": 0.3, \"scale_mw\": 14586.473214285714, \"hourly_priority\": [2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], \"capacity_grid_mw\": [5834.589285714286, 6563.912946428572, 7293.236607142857, 8022.560267857143, 8751.883928571428, 9481.207589285714, 10210.531249999998, 10939.854910714286, 11669.178571428572, 12398.502232142857, 13127.825892857143, 13857.149553571428, 14586.473214285714, 15315.796875, 16045.120535714286, 16774.44419642857, 17503.767857142855, 18233.09151785714, 18962.415178571428, 19691.738839285714, 20421.062499999996, 21150.386160714283, 21879.709821428572, 22609.03348214286, 23338.357142857145, 24067.680803571428, 24797.004464285714, 25526.328125, 26255.651785714286, 26984.975446428572, 27714.299107142855, 28443.62276785714, 29172.946428571428]}\nAll eight classical reference methods are available through classical_plan. The available forecast pool is shown in catalog. Conditional expected loss is not measured validation.",
+  "as_of": "2026-07-25T00:00:00Z",
+  "catalog": "catalog.json",
+  "max_calls": 12,
+  "allowed_tools": [
+    "catalog",
+    "history",
+    "inspect_series",
+    "budget_status",
+    "quote_forecast",
+    "forecast_and_plan",
+    "hourly_history_plan",
+    "replay_forecast",
+    "classical_plan"
+  ],
+  "max_output_tokens": 16384
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-15",
+  "scope": "Initial source release and read-only Language Model leaderboard",
+  "checks": {
+    "offline_tests": "74 passed, including common-cohort aggregation, cost-aware ranking, unit migration and oracle diagnostics",
+    "docker_offline_tests": "69 passed for the earlier unit-aware candidate; current aggregation/CLI changes are covered by host checks, Docker not rerun yet",
+    "lint": "passed",
+    "wheel_and_sdist": "built",
+    "ui": "Desktop sort/filter and all four mobile touch groups passed",
+    "source_audit": "No matched CJK text, credential patterns, workstation paths, or observation/weight files",
+    "oracle_diagnostics": "Positive cost penalty, common oracle, signed gaps and complete-cohort weighting tested. Legacy 377-case ranking remains separately versioned.",
+    "transport_builder": "All 960 episode files and 160 targets reproduced; histories byte-identical, metadata JSON-identical",
+    "extension_scorer_parity": "6992 free-reference scores across all 874 extension cases matched to 1e-12"
+  },
+  "dataset": {
+    "repo": "Neurogica/forecast-workflow-bench",
+    "revision": "3cadd8d625bd68156dee1ee334ac236f5ce0fea4",
+    "distribution": "Separate Hugging Face Dataset; observations and reproduction targets are not bundled in GitHub",
+    "tag": "primary-1251-v2"
+  },
+  "limitations": [
+    "Full-cohort provider rerun parity is not established by the offline checks.",
+    "External submission admission is manual; no automatic intake or execution service.",
+    "Secret-pattern checks are not an exhaustive proof of absence."
+  ],
+  "source_publication_performed": false,
+  "extension_candidate": {
+    "total_cases": 1251,
+    "transport_cases": 160,
+    "status": "Published as the new primary-1251-v2 dataset; full LM evaluation in progress",
+    "manifest_sha256": "c56c634d32ed7eeb69baf6c766709dbcec62488d647db2e7523e6241eb16f4b3"
+  }
+}

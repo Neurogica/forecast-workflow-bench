@@ -1,0 +1,36 @@
+{
+  "fonts": [
+    {
+      "file": "space-grotesk.woff2",
+      "source": "https://neurogica.com/_next/static/media/36966cca54120369-s.woff2",
+      "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/OFL.txt",
+      "weight": "500",
+      "sha256": "a0d054c4af557de20afd6ca59f47ab353bcaec49c63ff04b6c9d39d0f8910557"
+    },
+    {
+      "file": "inter.woff2",
+      "source": "https://neurogica.com/_next/static/media/e4af272ccee01ff0-s.woff2",
+      "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt",
+      "weight": "500",
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4"
+    },
+    {
+      "file": "ibm-plex-mono.woff2",
+      "source": "https://neurogica.com/_next/static/media/37786be940ec402b-s.woff2",
+      "license": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+      "weight": "700",
+      "sha256": "9e1455e6e9c5866f607e464fffb7855486dcf575b7e69b83a3d234e587fce41b"
+    }
+  ],
+  "logo": {
+    "source": "https://neurogica.com/media/brand/neurogica-logo-400-v2.webp",
+    "terms": "Neurogica brand asset; not covered by the code license.",
+    "sha256": "f7abc2aeb02f6c45f76f5682f84f13b3189aadcd5399ea318bb76a966ac0ccf3"
+  },
+  "city_illustration": {
+    "file": "city-background.png",
+    "source": "Image supplied by the maintainer on 2026-09-15 for the Space background",
+    "sha256": "c8f5288da66731221e3c483c3b65c2cee208d50da002b5ac749412a3dee70edc",
+    "license_note": "Supplied for this deployment; no additional license grant is asserted by the application."
+  }
+}

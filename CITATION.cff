@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the software version used and its benchmark manifest. The manuscript is a working draft."
+type: software
+title: "Forecast Workflow Bench (FWBench)"
+version: 0.3.0.dev4
+authors:
+  - family-names: Nagashima
+    given-names: Shunya
+    affiliation: Neurogica Inc.
+repository-code: "https://github.com/Neurogica/forecast-workflow-bench"
+license: Apache-2.0
