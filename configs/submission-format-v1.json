@@ -1,0 +1,27 @@
+{
+  "version": "format-v1",
+  "adopted_utc": "2026-09-15",
+  "status": "Declared post-hoc scoring amendment; same rule for all models and saved terminal answers",
+  "allowed": [
+    "JSON whitespace/BOM",
+    "one whole Markdown JSON fence",
+    "one complete unambiguous JSON object amid prose",
+    "bare complete array of decision records",
+    "exact b00-through-b07 ID-to-value JSON object",
+    "quoted finite JSON numeric literals"
+  ],
+  "forbidden": [
+    "select among multiple JSON candidates",
+    "repair malformed or truncated JSON",
+    "duplicate keys or decision IDs",
+    "invent missing actions or infer IDs",
+    "round, clamp, rescale or snap values to a grid",
+    "accept booleans, nonfinite numbers, units or arithmetic expressions as values",
+    "retrieve a plan from earlier tool outputs",
+    "turn an outstanding tool call or budget exhaustion into a final answer",
+    "use hidden demand during extraction"
+  ],
+  "raw_scores": "Preserved independently for strict-format evaluation",
+  "generation": "No changes to running models, prompts, observations, context/output budgets or tool-call limits; no API reruns",
+  "implementation_sha256": "475a72961f4e61a175453e5e4ffe70fab2ae9f247df5d48f6aaca645f9464cd3"
+}

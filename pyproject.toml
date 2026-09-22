@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "forecast-workflow-bench"
+version = "0.3.0.dev6"
+description = "Executable, provenance-aware evaluation of forecasting tool use"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dependencies = [
+  "numpy>=1.26", "pandas>=2.2,<3", "pydantic>=2.10,<3",
+  "httpx>=0.28,<1", "mcp>=1.28.1,<2", "openai>=1.100,<3",
+  "python-dotenv>=1,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=9.0.3,<10", "pytest-asyncio>=0.24", "ruff>=0.11"]
+leaderboard = ["gradio==6.15.1", "starlette>=1.3.1,<2", "pillow>=12.3,<13", "huggingface-hub>=0.30,<2"]
+chronos = ["chronos-forecasting>=2,<3", "torch>=2.2"]
+
+[project.scripts]
+fwb = "forecast_workflow.cli:main"
+fwb-mcp = "forecast_workflow.tools.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/forecast_workflow"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

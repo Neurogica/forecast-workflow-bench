@@ -1,0 +1,86 @@
+{
+  "tool-call-composition": {
+    "canvas_px": [
+      1020,
+      795
+    ],
+    "axes_bounds_px": [
+      270.3,
+      127.20000000000003,
+      647.7,
+      516.75
+    ],
+    "bar_start_end_px": [
+      [
+        270.3,
+        606.4083333333334
+      ],
+      [
+        918.0,
+        606.4083333333334
+      ]
+    ],
+    "row_label_pt": 8.3,
+    "count_pt": 8.3,
+    "legend_pt": 7.8,
+    "tick_pt": 7.8,
+    "axis_label_pt": 8.7,
+    "readme_width_px": 640
+  },
+  "forecast-model-requested": {
+    "canvas_px": [
+      1020,
+      795
+    ],
+    "axes_bounds_px": [
+      270.3,
+      127.20000000000003,
+      647.7,
+      516.75
+    ],
+    "bar_start_end_px": [
+      [
+        270.3,
+        606.4083333333334
+      ],
+      [
+        918.0,
+        606.4083333333334
+      ]
+    ],
+    "row_label_pt": 8.3,
+    "count_pt": 8.3,
+    "legend_pt": 7.8,
+    "tick_pt": 7.8,
+    "axis_label_pt": 8.7,
+    "readme_width_px": 640
+  },
+  "forecast-model-returned": {
+    "canvas_px": [
+      1020,
+      795
+    ],
+    "axes_bounds_px": [
+      270.3,
+      127.20000000000003,
+      647.7,
+      516.75
+    ],
+    "bar_start_end_px": [
+      [
+        270.3,
+        606.4083333333334
+      ],
+      [
+        918.0,
+        606.4083333333334
+      ]
+    ],
+    "row_label_pt": 8.3,
+    "count_pt": 8.3,
+    "legend_pt": 7.8,
+    "tick_pt": 7.8,
+    "axis_label_pt": 8.7,
+    "readme_width_px": 640
+  }
+}

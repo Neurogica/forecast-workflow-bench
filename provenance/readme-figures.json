@@ -1,0 +1,27 @@
+[
+  {
+    "asset": "docs/assets/benchmark_overview.png",
+    "source": "manuscript/figs/benchmark_overview.png",
+    "sha256": "02c8afebd76a63c5c733459eb056adcee4aa29d8fe6707370a2f9bd2f2a87788"
+  },
+  {
+    "asset": "docs/assets/benchmark_overview.svg",
+    "source": "manuscript/figs/benchmark_overview.svg",
+    "sha256": "79b7d6cac2b21863d83b23739c930747bd306b2f77e78cc089e7cdb48f16bd41"
+  },
+  {
+    "asset": "docs/assets/benchmark_overview.pdf",
+    "source": "manuscript/figs/benchmark_overview.pdf",
+    "sha256": "31d2e96bd07bfc638b686479dfb8fad31374e065bff321b71b1ac75b85920f4d"
+  },
+  {
+    "asset": "docs/assets/main_tool_mix.png",
+    "source": "manuscript/figs/main_tool_mix.png",
+    "sha256": "e0fe67cfd930f4a73c237b634845e7bc5fdbde33cb425518dfd0fca50a748907"
+  },
+  {
+    "asset": "docs/assets/main_tool_mix.pdf",
+    "source": "manuscript/figs/main_tool_mix.pdf",
+    "sha256": "2375a20006c7e077c1ea54c11325ceb38c1bc6496eb6b145096e74bb7f25dbf1"
+  }
+]

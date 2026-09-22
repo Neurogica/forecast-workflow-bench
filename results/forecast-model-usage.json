@@ -1,0 +1,370 @@
+{
+  "track": "primary-377-v1",
+  "backends": [
+    "chronos_bolt_tiny",
+    "chronos2",
+    "timesfm25",
+    "classical",
+    "other"
+  ],
+  "definitions": {
+    "requested": "forecast_and_plan and replay_forecast requests, including errors; quotes and classical_plan excluded.",
+    "returned": "Those same requests whose captured MCP result has isError=false; not proof of new model execution, accuracy, or use in the final plan.",
+    "denominator": "Per-agent total in each panel. Repeated requests count repeatedly. Zero totals are N/A, not 0% preference.",
+    "classical": "seasonal_empirical requested through a forecast tool, not a TSFM.",
+    "other": "Unrecognized or missing requested model identifiers; retained in the denominator."
+  },
+  "models": [
+    {
+      "model": "qwen36-35b-a3b-q4",
+      "label": "Qwen3.6 35B-A3B",
+      "group": 0,
+      "cases": 377,
+      "no_forecast_request_cases": 210,
+      "requested": {
+        "classical": 196,
+        "chronos_bolt_tiny": 125,
+        "chronos2": 23
+      },
+      "returned": {
+        "classical": 54,
+        "chronos_bolt_tiny": 32,
+        "chronos2": 2
+      },
+      "errors": {
+        "classical": 142,
+        "chronos_bolt_tiny": 93,
+        "chronos2": 21
+      },
+      "raw_model_names": {
+        "seasonal_empirical": 196,
+        "chronos_bolt_tiny": 125,
+        "chronos2": 23
+      },
+      "calls_by_tool": {
+        "forecast_and_plan": 344
+      },
+      "trace_set_sha256": "e13ac436b94f8d70c4e3b4a9e269fd156920278db01483993730b9ec3c16000c"
+    },
+    {
+      "model": "qwen36-27b-q4",
+      "label": "Qwen3.6 27B",
+      "group": 0,
+      "cases": 377,
+      "no_forecast_request_cases": 300,
+      "requested": {
+        "chronos_bolt_tiny": 102,
+        "classical": 49,
+        "chronos2": 25
+      },
+      "returned": {
+        "classical": 32,
+        "chronos_bolt_tiny": 50,
+        "chronos2": 3
+      },
+      "errors": {
+        "chronos_bolt_tiny": 52,
+        "classical": 17,
+        "chronos2": 22
+      },
+      "raw_model_names": {
+        "chronos_bolt_tiny": 102,
+        "seasonal_empirical": 49,
+        "chronos2": 25
+      },
+      "calls_by_tool": {
+        "forecast_and_plan": 176
+      },
+      "trace_set_sha256": "ce8ad0947724677291863d41c405b68593d4cf11421b6353b16d87485b4b43ee"
+    },
+    {
+      "model": "gemma4-12b-qat-q4",
+      "label": "Gemma 4 12B",
+      "group": 0,
+      "cases": 377,
+      "no_forecast_request_cases": 0,
+      "requested": {
+        "chronos_bolt_tiny": 541,
+        "classical": 1011,
+        "chronos2": 183,
+        "timesfm25": 19
+      },
+      "returned": {
+        "classical": 60
+      },
+      "errors": {
+        "chronos_bolt_tiny": 541,
+        "classical": 951,
+        "chronos2": 183,
+        "timesfm25": 19
+      },
+      "raw_model_names": {
+        "chronos_bolt_tiny": 541,
+        "seasonal_empirical": 1011,
+        "chronos2": 183,
+        "timesfm25": 19
+      },
+      "calls_by_tool": {
+        "forecast_and_plan": 1754
+      },
+      "trace_set_sha256": "35e06100d4cc7cc2acc2159ae12f7542cda53dff75ab86990121812a876b02f4"
+    },
+    {
+      "model": "qwen3-1.7b-q8",
+      "label": "Qwen3 1.7B",
+      "group": 1,
+      "cases": 377,
+      "no_forecast_request_cases": 0,
+      "requested": {
+        "chronos2": 1328,
+        "timesfm25": 111,
+        "classical": 36,
+        "chronos_bolt_tiny": 1171
+      },
+      "returned": {
+        "chronos2": 85,
+        "chronos_bolt_tiny": 38,
+        "classical": 5
+      },
+      "errors": {
+        "timesfm25": 111,
+        "chronos2": 1243,
+        "classical": 31,
+        "chronos_bolt_tiny": 1133
+      },
+      "raw_model_names": {
+        "chronos2": 1328,
+        "timesfm25": 111,
+        "seasonal_empirical": 36,
+        "chronos_bolt_tiny": 1171
+      },
+      "calls_by_tool": {
+        "forecast_and_plan": 2641,
+        "replay_forecast": 5
+      },
+      "trace_set_sha256": "d05e63e5df9e79a5b2494d05969bf617b6c456cc295a0b560e65f4eb53b85db4"
+    },
+    {
+      "model": "qwen3-0.6b-q8",
+      "label": "Qwen3 0.6B",
+      "group": 1,
+      "cases": 377,
+      "no_forecast_request_cases": 377,
+      "requested": {},
+      "returned": {},
+      "errors": {},
+      "raw_model_names": {},
+      "calls_by_tool": {},
+      "trace_set_sha256": "1b5ec0598e5283d4ac01d4b9bdd1ccc7a952e67763775272694f8a8aa6573351"
+    },
+    {
+      "model": "gemma4-e2b-qat-q4",
+      "label": "Gemma 4 E2B",
+      "group": 1,
+      "cases": 377,
+      "no_forecast_request_cases": 77,
+      "requested": {
+        "chronos2": 320,
+        "timesfm25": 183,
+        "classical": 249,
+        "chronos_bolt_tiny": 167
+      },
+      "returned": {},
+      "errors": {
+        "chronos2": 320,
+        "timesfm25": 183,
+        "classical": 249,
+        "chronos_bolt_tiny": 167
+      },
+      "raw_model_names": {
+        "chronos2": 320,
+        "timesfm25": 183,
+        "seasonal_empirical": 249,
+        "chronos_bolt_tiny": 167
+      },
+      "calls_by_tool": {
+        "forecast_and_plan": 919
+      },
+      "trace_set_sha256": "e667aeadc83808c0db6f7d0d3e9af595041ec0ec41eb7efb0f85ffccf688a982"
+    },
+    {
+      "model": "qwen3-4b-q8",
+      "label": "Qwen3 4B",
+      "group": 1,
+      "cases": 377,
+      "no_forecast_request_cases": 373,
+      "requested": {
+        "chronos2": 36
+      },
+      "returned": {},
+      "errors": {
+        "chronos2": 36
+      },
+      "raw_model_names": {
+        "chronos2": 36
+      },
+      "calls_by_tool": {
+        "forecast_and_plan": 36
+      },
+      "trace_set_sha256": "a3b02ce0fb916d192854a7d9ac0dd46d1bbe1fdd6ffee97c122fef112e7e8248"
+    },
+    {
+      "model": "gemma4-e4b-qat-q4",
+      "label": "Gemma 4 E4B",
+      "group": 1,
+      "cases": 377,
+      "no_forecast_request_cases": 180,
+      "requested": {
+        "timesfm25": 109,
+        "chronos2": 341,
+        "classical": 125,
+        "chronos_bolt_tiny": 33,
+        "other": 2
+      },
+      "returned": {},
+      "errors": {
+        "timesfm25": 109,
+        "chronos2": 341,
+        "classical": 125,
+        "chronos_bolt_tiny": 33,
+        "other": 2
+      },
+      "raw_model_names": {
+        "timesfm25": 109,
+        "chronos2": 341,
+        "seasonal_empirical": 125,
+        "chronos_bolt_tiny": 33,
+        "seasonal_empirical_quantiles": 2
+      },
+      "calls_by_tool": {
+        "forecast_and_plan": 610
+      },
+      "trace_set_sha256": "e5e9b6ffdb7dcebd94561f40cca0e42e063880a0fdd6ffb36d67b291bddc0638"
+    },
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "label": "GPT-5.4 mini",
+      "group": 2,
+      "cases": 377,
+      "no_forecast_request_cases": 142,
+      "requested": {
+        "classical": 306,
+        "timesfm25": 6,
+        "chronos_bolt_tiny": 43,
+        "chronos2": 5
+      },
+      "returned": {
+        "classical": 218,
+        "chronos_bolt_tiny": 43,
+        "chronos2": 5
+      },
+      "errors": {
+        "classical": 88,
+        "timesfm25": 6
+      },
+      "raw_model_names": {
+        "seasonal_empirical": 306,
+        "timesfm25": 6,
+        "chronos_bolt_tiny": 43,
+        "chronos2": 5
+      },
+      "calls_by_tool": {
+        "forecast_and_plan": 314,
+        "replay_forecast": 46
+      },
+      "trace_set_sha256": "6eaf7507ddb8bbc281ff132faf6c8cba4bd3a1b5fd151f522c56395d4583dc14"
+    },
+    {
+      "model": "gpt-5-nano-2025-08-07",
+      "label": "GPT-5 nano",
+      "group": 2,
+      "cases": 377,
+      "no_forecast_request_cases": 201,
+      "requested": {
+        "chronos_bolt_tiny": 117,
+        "chronos2": 153,
+        "classical": 70,
+        "timesfm25": 36
+      },
+      "returned": {
+        "chronos_bolt_tiny": 1
+      },
+      "errors": {
+        "chronos_bolt_tiny": 116,
+        "chronos2": 153,
+        "classical": 70,
+        "timesfm25": 36
+      },
+      "raw_model_names": {
+        "chronos_bolt_tiny": 117,
+        "chronos2": 153,
+        "seasonal_empirical": 70,
+        "timesfm25": 36
+      },
+      "calls_by_tool": {
+        "forecast_and_plan": 373,
+        "replay_forecast": 3
+      },
+      "trace_set_sha256": "7a517525a12aff5fb8b09369e20591bcede0e0d4ce113168054677a1a556a291"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "label": "GPT-5.4 nano",
+      "group": 2,
+      "cases": 377,
+      "no_forecast_request_cases": 193,
+      "requested": {
+        "classical": 118,
+        "chronos2": 152,
+        "chronos_bolt_tiny": 46
+      },
+      "returned": {
+        "classical": 63,
+        "chronos2": 61,
+        "chronos_bolt_tiny": 37
+      },
+      "errors": {
+        "classical": 55,
+        "chronos2": 91,
+        "chronos_bolt_tiny": 9
+      },
+      "raw_model_names": {
+        "seasonal_empirical": 118,
+        "chronos2": 152,
+        "chronos_bolt_tiny": 46
+      },
+      "calls_by_tool": {
+        "forecast_and_plan": 316
+      },
+      "trace_set_sha256": "ef894121fb7a93f8410b58d2f5891ebd48b964564212b8e2778d776433fae180"
+    },
+    {
+      "model": "gpt-6-astra",
+      "label": "GPT-6 Astra",
+      "group": 2,
+      "cases": 377,
+      "no_forecast_request_cases": 0,
+      "requested": {
+        "chronos2": 375,
+        "chronos_bolt_tiny": 187,
+        "classical": 5
+      },
+      "returned": {
+        "chronos2": 375,
+        "chronos_bolt_tiny": 187,
+        "classical": 5
+      },
+      "errors": {},
+      "raw_model_names": {
+        "chronos2": 375,
+        "chronos_bolt_tiny": 187,
+        "seasonal_empirical": 5
+      },
+      "calls_by_tool": {
+        "forecast_and_plan": 548,
+        "replay_forecast": 19
+      },
+      "trace_set_sha256": "d6ccb301e7872771b968b50f3526a874a8cf24fb004788ebbbccc5cdc21752bd"
+    }
+  ]
+}
