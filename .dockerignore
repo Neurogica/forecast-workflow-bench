@@ -6,6 +6,7 @@
 !uv.lock
 !README.md
 !LICENSE
+!scripts/security/check_build_tls_trust.py
 !src/
 !src/**
 !configs/

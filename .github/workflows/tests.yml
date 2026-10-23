@@ -10,7 +10,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python -m pip install uv==0.11.8
+      - name: Update and verify the Ubuntu CA store
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends --only-upgrade ca-certificates
+          python scripts/security/check_build_tls_trust.py system
+      - uses: astral-sh/setup-uv@v7
+        with:
+          version: "0.13.5"
+      - name: Bootstrap pip with patched uv and verify build trust stores
+        run: |
+          uv pip install --system pip==26.2.2
+          python scripts/security/check_build_tls_trust.py system pip uv
       - run: uv sync --locked --extra dev
       - run: uv run --no-sync python -m ruff check src tests leaderboard scripts
       - run: uv run --no-sync python -m pytest -q

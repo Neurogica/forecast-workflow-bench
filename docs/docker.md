@@ -23,7 +23,12 @@ The CI workflow builds and tests images without publishing them.
 ## What is fixed
 
 - Python 3.11 Debian Bookworm base, pinned by image digest in `Dockerfile`.
-- uv 0.11.8 and resolved Python packages from `uv.lock`, installed with `--locked`.
+- uv 0.13.5 from the official image pinned by digest, and resolved Python packages
+  from `uv.lock`, installed with `--locked`.
+- pip 26.2.2, bootstrapped by patched uv without invoking the base image's old pip.
+- Bookworm's signed `ca-certificates` update, at least `20250419~deb12u2`
+  (DLA-4845-1). The build checks the actual OS and pip trust stores for removal of
+  the compromised emSign G3 / AAA roots and retention of unaffected G1 / ISRG X1.
 - The code and frozen protocol files copied from the build checkout.
 
 For an evaluation, record the code revision, lockfile hash, image ID, platform,

@@ -116,6 +116,9 @@ results, making forecast use and capacity selection important evaluation targets
 
 ### Installation
 
+Use uv 0.13.5 or newer and an up-to-date OS CA store. The emSign CA incident
+also affected package installers, independently of the application dependencies.
+
 ```bash
 git clone https://github.com/Neurogica/forecast-workflow-bench.git
 cd forecast-workflow-bench
