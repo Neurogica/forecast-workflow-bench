@@ -23,7 +23,7 @@ The CI workflow builds and tests images without publishing them.
 ## What is fixed
 
 - Python 3.11 Debian Bookworm base, pinned by image digest in `Dockerfile`.
-- uv 0.11.8 and resolved Python packages from `uv.lock`, installed with `--locked`.
+- uv 0.13.5 and resolved Python packages from `uv.lock`, installed with `--locked`.
 - The code and frozen protocol files copied from the build checkout.
 
 For an evaluation, record the code revision, lockfile hash, image ID, platform,
